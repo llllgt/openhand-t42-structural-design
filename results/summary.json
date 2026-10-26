@@ -1,0 +1,157 @@
+{
+  "selected": "pocket_1p8",
+  "scope": "component-level reference FE cases, isotropic linear elasticity, no prototype",
+  "cad": {
+    "baseline": {
+      "volume_mm3": 30774.92441717976,
+      "estimated_mass_g": 36.92990930061571,
+      "volume_reduction_percent": 0.0,
+      "pocket_depth_mm": 0,
+      "remaining_floor_mm": 3,
+      "valid_single_solid": true,
+      "step_roundtrip_volume_error_mm3": 4.009052645415068e-09,
+      "added_material_mm3": 0.0,
+      "removed_outside_design_region_mm3": 0.0,
+      "manufacturing_rule_pass": true
+    },
+    "pocket_1p0": {
+      "volume_mm3": 29828.65893472233,
+      "estimated_mass_g": 35.794390721666794,
+      "volume_reduction_percent": 3.0747938471919922,
+      "pocket_depth_mm": 1.0,
+      "remaining_floor_mm": 2.0,
+      "valid_single_solid": true,
+      "step_roundtrip_volume_error_mm3": 3.750756150111556e-09,
+      "added_material_mm3": 0.0,
+      "removed_outside_design_region_mm3": 0.0,
+      "manufacturing_rule_pass": true
+    },
+    "pocket_1p8": {
+      "volume_mm3": 29071.646548756387,
+      "estimated_mass_g": 34.88597585850766,
+      "volume_reduction_percent": 5.534628924945595,
+      "pocket_depth_mm": 1.8,
+      "remaining_floor_mm": 1.2,
+      "valid_single_solid": true,
+      "step_roundtrip_volume_error_mm3": 3.768946044147015e-09,
+      "added_material_mm3": 0.0,
+      "removed_outside_design_region_mm3": 0.0,
+      "manufacturing_rule_pass": true
+    },
+    "pocket_2p4": {
+      "volume_mm3": 28503.887259281906,
+      "estimated_mass_g": 34.204664711138285,
+      "volume_reduction_percent": 7.379505233260863,
+      "pocket_depth_mm": 2.4,
+      "remaining_floor_mm": 0.6000000000000001,
+      "valid_single_solid": true,
+      "step_roundtrip_volume_error_mm3": 3.747118171304464e-09,
+      "added_material_mm3": 0.0,
+      "removed_outside_design_region_mm3": 0.0,
+      "manufacturing_rule_pass": false
+    }
+  },
+  "comparison": [
+    {
+      "case": "vertical_20N",
+      "baseline_corner_max_mm": 0.052760545362836565,
+      "modified_corner_max_mm": 0.0531629184196602,
+      "baseline_compliance_Nmm": 0.8077578111765364,
+      "modified_compliance_Nmm": 0.8409323549573897,
+      "compliance_increase_percent": 4.106991392944015,
+      "equivalent_stiffness_change_percent": -3.9449717430047326,
+      "baseline_p95_vm_MPa": 0.43431124502384116,
+      "modified_p95_vm_MPa": 0.4685640896630453
+    },
+    {
+      "case": "spread_10N_each",
+      "baseline_corner_max_mm": 0.00534788789806877,
+      "modified_corner_max_mm": 0.005245303611626424,
+      "baseline_compliance_Nmm": 0.03456479425748623,
+      "modified_compliance_Nmm": 0.03583715036701047,
+      "compliance_increase_percent": 3.681075316248017,
+      "equivalent_stiffness_change_percent": -3.550383042440486,
+      "baseline_p95_vm_MPa": 0.08624988294695671,
+      "modified_p95_vm_MPa": 0.09269892318838145
+    },
+    {
+      "case": "opposed_500Nmm",
+      "baseline_corner_max_mm": 0.1933373757216465,
+      "modified_corner_max_mm": 0.20310049753665882,
+      "baseline_compliance_Nmm": 9.764149809714956,
+      "modified_compliance_Nmm": 10.564620761039079,
+      "compliance_increase_percent": 8.198060936423612,
+      "equivalent_stiffness_change_percent": -7.5769019014497285,
+      "baseline_p95_vm_MPa": 1.415086807095031,
+      "modified_p95_vm_MPa": 1.515291938586402
+    }
+  ],
+  "mesh_convergence": [
+    {
+      "variant": "baseline",
+      "case": "vertical_20N",
+      "coarse_tets": 17262,
+      "fine_tets": 25458,
+      "compliance_change_percent": 0.5371524653326354,
+      "corner_displacement_change_percent": 0.5092981006164843
+    },
+    {
+      "variant": "baseline",
+      "case": "spread_10N_each",
+      "coarse_tets": 17262,
+      "fine_tets": 25458,
+      "compliance_change_percent": 0.5927480601402468,
+      "corner_displacement_change_percent": 0.9466498395562573
+    },
+    {
+      "variant": "baseline",
+      "case": "opposed_500Nmm",
+      "coarse_tets": 17262,
+      "fine_tets": 25458,
+      "compliance_change_percent": 0.6505035841324336,
+      "corner_displacement_change_percent": 0.552615432670911
+    },
+    {
+      "variant": "pocket_1p8",
+      "case": "vertical_20N",
+      "coarse_tets": 21231,
+      "fine_tets": 32642,
+      "compliance_change_percent": 0.5536700956588536,
+      "corner_displacement_change_percent": 0.5096561706549929
+    },
+    {
+      "variant": "pocket_1p8",
+      "case": "spread_10N_each",
+      "coarse_tets": 21231,
+      "fine_tets": 32642,
+      "compliance_change_percent": 0.4902858346780281,
+      "corner_displacement_change_percent": 0.9946864141454625
+    },
+    {
+      "variant": "pocket_1p8",
+      "case": "opposed_500Nmm",
+      "coarse_tets": 21231,
+      "fine_tets": 32642,
+      "compliance_change_percent": 0.6499907052858411,
+      "corner_displacement_change_percent": 0.5497875354006032
+    }
+  ],
+  "solver_verification": [
+    {
+      "h_mm": 1.0,
+      "elements": 960,
+      "loaded_face_mean_deflection_mm": 0.49217581385123443,
+      "Timoshenko_reference_mm": 0.50405,
+      "relative_error": 0.023557556093176446
+    },
+    {
+      "h_mm": 0.5,
+      "elements": 7680,
+      "loaded_face_mean_deflection_mm": 0.49431490454274507,
+      "Timoshenko_reference_mm": 0.50405,
+      "relative_error": 0.019313749543209857
+    }
+  ],
+  "selection_pass": true,
+  "convergence_pass": true
+}

@@ -1,0 +1,58 @@
+{
+  "variant": "pocket_1p8",
+  "element": "quadratic tetrahedron P2 on linear geometry",
+  "mesh_size_mm": 2.4,
+  "nodes": 9978,
+  "dofs": 184581,
+  "tetrahedra": 32642,
+  "fixed_nodes": 513,
+  "mesh_volume_mm3": 29066.30542833425,
+  "runtime_s": 188.73774242401123,
+  "cases": {
+    "vertical_20N": {
+      "max_displacement_mm": 0.0531629184196602,
+      "compliance_Nmm": 0.8409323549573897,
+      "max_element_vm_MPa": 1.7914439080829812,
+      "volume_weighted_p95_vm_MPa": 0.4685640896630453,
+      "applied_force_N": [
+        0.0,
+        0.0,
+        -20.00000000000004
+      ],
+      "force_balance_error_N": 1.6662095314068586e-11,
+      "moment_balance_error_Nmm": 3.9876513156674194e-10,
+      "relative_free_residual": 2.982354424226976e-11,
+      "strain_energy_Nmm": 0.42046617747552134
+    },
+    "spread_10N_each": {
+      "max_displacement_mm": 0.005245303611626424,
+      "compliance_Nmm": 0.03583715036701047,
+      "max_element_vm_MPa": 0.3229782257437788,
+      "volume_weighted_p95_vm_MPa": 0.09269892318838145,
+      "applied_force_N": [
+        6.299972716628573e-16,
+        0.0,
+        0.0
+      ],
+      "force_balance_error_N": 1.2266843726994908e-12,
+      "moment_balance_error_Nmm": 2.6305024229775385e-11,
+      "relative_free_residual": 2.1399539479469557e-12,
+      "strain_energy_Nmm": 0.01791857518349189
+    },
+    "opposed_500Nmm": {
+      "max_displacement_mm": 0.20310049753665882,
+      "compliance_Nmm": 10.564620761039079,
+      "max_element_vm_MPa": 6.267565829194147,
+      "volume_weighted_p95_vm_MPa": 1.515291938586402,
+      "applied_force_N": [
+        0.0,
+        0.0,
+        9.759174805085147e-17
+      ],
+      "force_balance_error_N": 3.137181563338161e-11,
+      "moment_balance_error_Nmm": 1.1820649218194972e-09,
+      "relative_free_residual": 2.8024289529931833e-11,
+      "strain_energy_Nmm": 5.282310380479036
+    }
+  }
+}

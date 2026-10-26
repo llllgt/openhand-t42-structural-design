@@ -1,0 +1,16 @@
+[
+  {
+    "h_mm": 1.0,
+    "elements": 960,
+    "loaded_face_mean_deflection_mm": 0.49217581385123443,
+    "Timoshenko_reference_mm": 0.50405,
+    "relative_error": 0.023557556093176446
+  },
+  {
+    "h_mm": 0.5,
+    "elements": 7680,
+    "loaded_face_mean_deflection_mm": 0.49431490454274507,
+    "Timoshenko_reference_mm": 0.50405,
+    "relative_error": 0.019313749543209857
+  }
+]

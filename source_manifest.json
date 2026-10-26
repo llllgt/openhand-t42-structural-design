@@ -1,0 +1,1510 @@
+{
+  "repository": "https://github.com/grablab/openhand-hardware",
+  "commit": "b10197dcd79e7bcfa92c6d5a0bfa479e6a789fba",
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b953d7469c4de3bdab8c1e26c766afbbf61d8cff",
+      "size": 2034,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/b953d7469c4de3bdab8c1e26c766afbbf61d8cff"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3eb1cd3b5438a25d07032a20c1ed2e9b0ddf846",
+      "size": 6392,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/f3eb1cd3b5438a25d07032a20c1ed2e9b0ddf846"
+    },
+    {
+      "path": "common parts/3434T31 - nylon pulley.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "12755597e2ce9028c97885cde3ca25266f91770d",
+      "size": 136489,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/12755597e2ce9028c97885cde3ca25266f91770d"
+    },
+    {
+      "path": "common parts/90145A421 D1-16 L5-8.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67ba0b2c3855a4ffa89034e8c1167ed0995ee893",
+      "size": 153088,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/67ba0b2c3855a4ffa89034e8c1167ed0995ee893"
+    },
+    {
+      "path": "common parts/90480A003 2-56 nut.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53db9b0b5e4980462b219b88fcce84b75a05b13f",
+      "size": 53455,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/53db9b0b5e4980462b219b88fcce84b75a05b13f"
+    },
+    {
+      "path": "common parts/91253A106 4-40 L1-4 countersunk.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7c53f06e6f7398aba7f01a3b233c2da424da970",
+      "size": 432702,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/e7c53f06e6f7398aba7f01a3b233c2da424da970"
+    },
+    {
+      "path": "common parts/91253A110 4-40 L1-2 countersunk.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "758d151a1e085cefdf02a7a1d1fef7ab096e0789",
+      "size": 1786443,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/758d151a1e085cefdf02a7a1d1fef7ab096e0789"
+    },
+    {
+      "path": "common parts/91253A194 8-32 L1-2 countersunk.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b015cbd6daae0feadeda2aff5cdb67004e379ca",
+      "size": 663040,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9b015cbd6daae0feadeda2aff5cdb67004e379ca"
+    },
+    {
+      "path": "common parts/91290A012 M2 L5 socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dc593a51b097202badefe9468f4521c7dc6cd91",
+      "size": 377829,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4dc593a51b097202badefe9468f4521c7dc6cd91"
+    },
+    {
+      "path": "common parts/91292A003 M2 L3 socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "629e5947fca5d07ab1c848c4cf65063ea9f74437",
+      "size": 418119,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/629e5947fca5d07ab1c848c4cf65063ea9f74437"
+    },
+    {
+      "path": "common parts/91292A012 M2.5 L8 socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68bf0cc0cd351d4925f8f994d0c91b464437fa5d",
+      "size": 665006,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/68bf0cc0cd351d4925f8f994d0c91b464437fa5d"
+    },
+    {
+      "path": "common parts/91292A112 M3 L8 socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e0142b049099c518fdea67f035ddcdf764b0afc5",
+      "size": 653076,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/e0142b049099c518fdea67f035ddcdf764b0afc5"
+    },
+    {
+      "path": "common parts/91294A207 M5 L8 countersunk.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76d26b3890aaa4518449c3a28695d4292fefe7ce",
+      "size": 475648,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/76d26b3890aaa4518449c3a28695d4292fefe7ce"
+    },
+    {
+      "path": "common parts/91294A210 M5 L12 countersunk.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72421d1eb6c8337c3d255b2d8525909093ff50e9",
+      "size": 592896,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/72421d1eb6c8337c3d255b2d8525909093ff50e9"
+    },
+    {
+      "path": "common parts/91772A266 2-56 L5-4 pan.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1189f221dc97f7d9b7a11ebba876a3dbd1080580",
+      "size": 1008072,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1189f221dc97f7d9b7a11ebba876a3dbd1080580"
+    },
+    {
+      "path": "common parts/92196A084 2-56 L3-4 socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d519faabdceda71a03e4e98c6739d461f188714",
+      "size": 1009454,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7d519faabdceda71a03e4e98c6739d461f188714"
+    },
+    {
+      "path": "common parts/92196A146 6-32 L3-8  socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "371f557e931f693c554bd340e0ebf01f1ea9d5d6",
+      "size": 568599,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/371f557e931f693c554bd340e0ebf01f1ea9d5d6"
+    },
+    {
+      "path": "common parts/92210A197 8-32 L3-4 countersunk.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81ab80f195c7eee36279373608d775c41b299beb",
+      "size": 776450,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/81ab80f195c7eee36279373608d775c41b299beb"
+    },
+    {
+      "path": "common parts/92290A055 M2.5 L5 socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc5521fd54c5a541d3e1db015b7e017374544bd6",
+      "size": 559616,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/bc5521fd54c5a541d3e1db015b7e017374544bd6"
+    },
+    {
+      "path": "common parts/92290A108 M3 L4 socket.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ad210020019f106dc9af2467f04df19cb7c5709",
+      "size": 433152,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7ad210020019f106dc9af2467f04df19cb7c5709"
+    },
+    {
+      "path": "common parts/92474A029 8-32 L5-2 standoff.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bb843d6f5a653a00680e2d2ed2fc4c12e49eea5",
+      "size": 742111,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/8bb843d6f5a653a00680e2d2ed2fc4c12e49eea5"
+    },
+    {
+      "path": "common parts/93330A440 8-32 L3-2 standoff.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ea07b3492a0843d4bbca97991ff5a1ee7bbc600",
+      "size": 746127,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/8ea07b3492a0843d4bbca97991ff5a1ee7bbc600"
+    },
+    {
+      "path": "common parts/93330A483 8-32 L2 standoff.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b5573979d01e45bf88e36a18259cae7b84bfb33",
+      "size": 793066,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4b5573979d01e45bf88e36a18259cae7b84bfb33"
+    },
+    {
+      "path": "common parts/93365A120 4-40 insert.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3178d35d521aa987f0402e7f2591a532677ca55e",
+      "size": 811775,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/3178d35d521aa987f0402e7f2591a532677ca55e"
+    },
+    {
+      "path": "common parts/93365A130 6-32 insert.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ba98fda03a6d4866a15e3fe081040fb8dbf8af8",
+      "size": 241942,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/5ba98fda03a6d4866a15e3fe081040fb8dbf8af8"
+    },
+    {
+      "path": "common parts/94180A333 M3 insert.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1394e19af47474725f515957028611aff7caf64f",
+      "size": 821441,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1394e19af47474725f515957028611aff7caf64f"
+    },
+    {
+      "path": "common parts/97395A435 D1-8 L3-8.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f2276e9b6d7efa07c484be93d68be0623e2587a",
+      "size": 123777,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/2f2276e9b6d7efa07c484be93d68be0623e2587a"
+    },
+    {
+      "path": "common parts/97395A439 D1-8 L1-4.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17854d9001643fef114d2d3116c5d07699e33e56",
+      "size": 141847,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/17854d9001643fef114d2d3116c5d07699e33e56"
+    },
+    {
+      "path": "common parts/98381A471 D1-8 L1-2.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d705f851409ca597359ef31ccb8784a5c49d26b7",
+      "size": 84704,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/d705f851409ca597359ef31ccb8784a5c49d26b7"
+    },
+    {
+      "path": "common parts/98381A472 D1-8 L5-8.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbdabaeef005679c60678ecb0a0a703059300d24",
+      "size": 84770,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/fbdabaeef005679c60678ecb0a0a703059300d24"
+    },
+    {
+      "path": "common parts/98381A474 D1-8 L7-8.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6112ae79d592d100a64828557a0483326f4cffd4",
+      "size": 79530,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/6112ae79d592d100a64828557a0483326f4cffd4"
+    },
+    {
+      "path": "common parts/98381A475 D1-8 L1.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06c6fdc7b882a521e4d894df18d7e1b7f3e8229c",
+      "size": 77418,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/06c6fdc7b882a521e4d894df18d7e1b7f3e8229c"
+    },
+    {
+      "path": "common parts/98381A477 D1-8 L5-4.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4aefaeb3f23e34bbc51a83e0a0c528dbe8b11af6",
+      "size": 78742,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4aefaeb3f23e34bbc51a83e0a0c528dbe8b11af6"
+    },
+    {
+      "path": "common parts/98381A539 D1-4 L5-8.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ebd46010cbcaeee088f76062c74164e10921d62",
+      "size": 94506,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9ebd46010cbcaeee088f76062c74164e10921d62"
+    },
+    {
+      "path": "common parts/98381A542 D1-4 L1.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15b9742fcf164011f037b2ade9245273b90db914",
+      "size": 88307,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/15b9742fcf164011f037b2ade9245273b90db914"
+    },
+    {
+      "path": "common parts/98381A544 D1-4 L5-4.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be5416335944ca35e19c16e653431825caf9b69b",
+      "size": 87470,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/be5416335944ca35e19c16e653431825caf9b69b"
+    },
+    {
+      "path": "common parts/98381A548 D1-4 L7-4.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e8d9beda893300aa87873f2245167089646d815",
+      "size": 176128,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/6e8d9beda893300aa87873f2245167089646d815"
+    },
+    {
+      "path": "common parts/dynamixel MX-28-exposed.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49f8b441516326e8c4dcb60562a9d4f7a6b8c61a",
+      "size": 1240537,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/49f8b441516326e8c4dcb60562a9d4f7a6b8c61a"
+    },
+    {
+      "path": "common parts/dynamixel XM-430.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61a9582870fdf4804ee377a527343bf5b87ab671",
+      "size": 397871,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/61a9582870fdf4804ee377a527343bf5b87ab671"
+    },
+    {
+      "path": "common parts/dynamixel-MX-64-exposed.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a671aced1ef04339abe4ff62573149911cd73f08",
+      "size": 2856563,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/a671aced1ef04339abe4ff62573149911cd73f08"
+    },
+    {
+      "path": "common parts/dynamixel-MX-64.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4792688152c452935eb3190b0fe9a31b22758c9f",
+      "size": 3233792,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4792688152c452935eb3190b0fe9a31b22758c9f"
+    },
+    {
+      "path": "common parts/dynamixel-RX-28.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d12cc1ec4b153e941ff6d140b15141fdc287384f",
+      "size": 972800,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/d12cc1ec4b153e941ff6d140b15141fdc287384f"
+    },
+    {
+      "path": "common parts/fan - 25x25x10.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7da8b4ed717063d26c9f6e3d3049bf17cfd2bc3",
+      "size": 108339,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/f7da8b4ed717063d26c9f6e3d3049bf17cfd2bc3"
+    },
+    {
+      "path": "common parts/fan - 25x25x7.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36569e738cf9fd4af8f6d1c47df3824c1dee0208",
+      "size": 86167,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/36569e738cf9fd4af8f6d1c47df3824c1dee0208"
+    },
+    {
+      "path": "common parts/servo - orion hv220.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "632c3f513fd8be9cd043fef376ce5bc99b2450f3",
+      "size": 240128,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/632c3f513fd8be9cd043fef376ce5bc99b2450f3"
+    },
+    {
+      "path": "common parts/servo - powerhd 1501mg.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c096cfd664f9114f220cdd299a8ed62d67339562",
+      "size": 256884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/c096cfd664f9114f220cdd299a8ed62d67339562"
+    },
+    {
+      "path": "couplings/94180A353 - M4 heat set insert.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "653c099a444fe1f4c932c6e92dd6f9a852f79d1e",
+      "size": 989696,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/653c099a444fe1f4c932c6e92dd6f9a852f79d1e"
+    },
+    {
+      "path": "couplings/Mount_Baxter.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b6efca461845fb67e1b7a72b8d66a4568bd0cda",
+      "size": 513024,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9b6efca461845fb67e1b7a72b8d66a4568bd0cda"
+    },
+    {
+      "path": "couplings/Mount_Kuka-LBR-iiwa.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "610a137d6a35d553a4b6834ab1ec7dd9432edcb5",
+      "size": 349184,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/610a137d6a35d553a4b6834ab1ec7dd9432edcb5"
+    },
+    {
+      "path": "couplings/Mount_Kuka-Youbot.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a87272f9268aa8a482d1598b1ee8b6d051904ca",
+      "size": 399360,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/2a87272f9268aa8a482d1598b1ee8b6d051904ca"
+    },
+    {
+      "path": "couplings/Mount_PR2.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccbba599bdfb251ad7379010736a52b16828d4e9",
+      "size": 515584,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/ccbba599bdfb251ad7379010736a52b16828d4e9"
+    },
+    {
+      "path": "couplings/Mount_Schunk-LWA-4D.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bce929990ec520938b2bd5d958d79c1006f02ae",
+      "size": 342528,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/2bce929990ec520938b2bd5d958d79c1006f02ae"
+    },
+    {
+      "path": "couplings/Mount_UR.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ed0661b85110a35c306af65952985c78c24dc04",
+      "size": 722944,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/6ed0661b85110a35c306af65952985c78c24dc04"
+    },
+    {
+      "path": "couplings/Mount_WAM.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b156d26913ba3a0b67824452afb9eb26323a205",
+      "size": 372736,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9b156d26913ba3a0b67824452afb9eb26323a205"
+    },
+    {
+      "path": "couplings/PR2_Clamp.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a59f893effaa25aa9f07fc9db66ba4f9c0eb51b7",
+      "size": 178176,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/a59f893effaa25aa9f07fc9db66ba4f9c0eb51b7"
+    },
+    {
+      "path": "couplings/dovetail_female.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6a29953c6cf83c7de14bbeddc4a1d48959b65a",
+      "size": 229033,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/ec6a29953c6cf83c7de14bbeddc4a1d48959b65a"
+    },
+    {
+      "path": "couplings/dovetail_male.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "871e82bbcf866ddb4a9322318152508e5ffb8e97",
+      "size": 115309,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/871e82bbcf866ddb4a9322318152508e5ffb8e97"
+    },
+    {
+      "path": "couplings/stl/MountA_Baxter.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7118acb15e80759a380d34e4ea8bd190f1786302",
+      "size": 126884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7118acb15e80759a380d34e4ea8bd190f1786302"
+    },
+    {
+      "path": "couplings/stl/MountA_Kuka-LBR-iiwa.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3b88cf1f583564e397e9a2d877f1e93063da0eb7",
+      "size": 122084,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/3b88cf1f583564e397e9a2d877f1e93063da0eb7"
+    },
+    {
+      "path": "couplings/stl/MountA_Kuka-Youbot.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6631aa2146b94a54ecf4290b33e08d44afc547a",
+      "size": 117184,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/d6631aa2146b94a54ecf4290b33e08d44afc547a"
+    },
+    {
+      "path": "couplings/stl/MountA_Schunk-LWA-4D.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5dda74f88c54e6eccf448efc5e7320e8ca5fe4c8",
+      "size": 117884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/5dda74f88c54e6eccf448efc5e7320e8ca5fe4c8"
+    },
+    {
+      "path": "couplings/stl/MountA_UR.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "936ae0ae77016168b6f19beb2c990899590c7508",
+      "size": 149184,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/936ae0ae77016168b6f19beb2c990899590c7508"
+    },
+    {
+      "path": "couplings/stl/MountA_WAM.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b63a5f5da33a6aa401ac914c7a03475620c56f71",
+      "size": 159884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/b63a5f5da33a6aa401ac914c7a03475620c56f71"
+    },
+    {
+      "path": "couplings/stl/Mount_PR2.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2ae9bc2d1efea2d3a9c1d7a2e40691a4b9b65e7",
+      "size": 273184,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/b2ae9bc2d1efea2d3a9c1d7a2e40691a4b9b65e7"
+    },
+    {
+      "path": "couplings/stl/Mount_UR.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee15cc2de3d3e03cc454edcd653e75519c7535a",
+      "size": 121284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/2ee15cc2de3d3e03cc454edcd653e75519c7535a"
+    },
+    {
+      "path": "couplings/~$dovetail_female.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c393b44b3215a068fa61dfbc774c7f38d841538",
+      "size": 9,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1c393b44b3215a068fa61dfbc774c7f38d841538"
+    },
+    {
+      "path": "couplings/~$dovetail_male.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c393b44b3215a068fa61dfbc774c7f38d841538",
+      "size": 9,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1c393b44b3215a068fa61dfbc774c7f38d841538"
+    },
+    {
+      "path": "fingers/m2_pf.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04a184fee3f4d0112a6e0591970c57ca6998eca8",
+      "size": 1002531,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/04a184fee3f4d0112a6e0591970c57ca6998eca8"
+    },
+    {
+      "path": "fingers/m2_pp_A.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ae327a11a6b5770a4ce11c3af429a39a2f268cd",
+      "size": 646353,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/5ae327a11a6b5770a4ce11c3af429a39a2f268cd"
+    },
+    {
+      "path": "fingers/molds/finger_ff_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51851497842d97a0d143666fe60e9b2ae525299e",
+      "size": 4300800,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/51851497842d97a0d143666fe60e9b2ae525299e"
+    },
+    {
+      "path": "fingers/molds/finger_ffff_q.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "397df27be6da36b11b45f93b195286b656d11e1b",
+      "size": 1793987,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/397df27be6da36b11b45f93b195286b656d11e1b"
+    },
+    {
+      "path": "fingers/molds/finger_pf_m2.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "efe33c1882274a63c12b9d3ae56d9bcc6a9a4cad",
+      "size": 3918336,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/efe33c1882274a63c12b9d3ae56d9bcc6a9a4cad"
+    },
+    {
+      "path": "fingers/molds/finger_pf_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "230f1ec16b6caadc18dbb3ad1cf9227562282380",
+      "size": 745667,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/230f1ec16b6caadc18dbb3ad1cf9227562282380"
+    },
+    {
+      "path": "fingers/molds/finger_pp_m2_A.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec6db79560d1ff67fe796ff5ba5668d53f2a7eac",
+      "size": 2641920,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/ec6db79560d1ff67fe796ff5ba5668d53f2a7eac"
+    },
+    {
+      "path": "fingers/molds/finger_pp_t42_A.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e88d4a8cb1e04ef6db430b8826cdee981c876339",
+      "size": 2524160,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/e88d4a8cb1e04ef6db430b8826cdee981c876339"
+    },
+    {
+      "path": "fingers/molds/finger_pp_t42_B.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b35c9b8f6b2bb5106847a6a1568c2179e928249",
+      "size": 3277824,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4b35c9b8f6b2bb5106847a6a1568c2179e928249"
+    },
+    {
+      "path": "fingers/molds/finger_pp_t_A.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaee28b5b153acc71faa746f4de8bdabdac6094e",
+      "size": 487903,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/eaee28b5b153acc71faa746f4de8bdabdac6094e"
+    },
+    {
+      "path": "fingers/molds/finger_pp_t_B.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf65d1eb761943f144041ee60fe917cd50c7c57d",
+      "size": 2318336,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/bf65d1eb761943f144041ee60fe917cd50c7c57d"
+    },
+    {
+      "path": "fingers/params_finger_t.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "deabbda2d000a595171b5bb9f2354740b66f3a2b",
+      "size": 53410,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/deabbda2d000a595171b5bb9f2354740b66f3a2b"
+    },
+    {
+      "path": "fingers/params_finger_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a1d7b06b93a239ccdd1e4d3ad166a883b68ce4d",
+      "size": 55589,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7a1d7b06b93a239ccdd1e4d3ad166a883b68ce4d"
+    },
+    {
+      "path": "fingers/q_ffff.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc2afabc52d566ac8731a923b0df7adee674b95f",
+      "size": 1324780,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/dc2afabc52d566ac8731a923b0df7adee674b95f"
+    },
+    {
+      "path": "fingers/q_pf.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c84310bdd5ea8d4eecbce137bed97fb223ae0321",
+      "size": 806561,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/c84310bdd5ea8d4eecbce137bed97fb223ae0321"
+    },
+    {
+      "path": "fingers/t42_ff.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70c4f00b769e4aad85468cbc10e3d270b69ba5c",
+      "size": 2388992,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/d70c4f00b769e4aad85468cbc10e3d270b69ba5c"
+    },
+    {
+      "path": "fingers/t42_pf.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c34791761aa9ee47b7ceee258d19ecb86e59eb93",
+      "size": 973319,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/c34791761aa9ee47b7ceee258d19ecb86e59eb93"
+    },
+    {
+      "path": "fingers/t42_pp_A.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab267121a6be99766ce4edc6197db239266511d",
+      "size": 639781,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/6ab267121a6be99766ce4edc6197db239266511d"
+    },
+    {
+      "path": "fingers/t42_pp_B.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "964daf11e62e4b9f67ee7caca34fcaa3d0252632",
+      "size": 501391,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/964daf11e62e4b9f67ee7caca34fcaa3d0252632"
+    },
+    {
+      "path": "fingers/t_ff.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7196a7b3df722bf196019d61a52d376bbe7bacf5",
+      "size": 1005097,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7196a7b3df722bf196019d61a52d376bbe7bacf5"
+    },
+    {
+      "path": "fingers/t_pf.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af80cd7bfd36c1b7126a99b975f342d432c45e9c",
+      "size": 865381,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/af80cd7bfd36c1b7126a99b975f342d432c45e9c"
+    },
+    {
+      "path": "fingers/t_pp_A.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56df61ec42926a178e95f839fa1f79abf838dc0e",
+      "size": 609185,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/56df61ec42926a178e95f839fa1f79abf838dc0e"
+    },
+    {
+      "path": "fingers/t_pp_B.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d2e9d49dce0d37c3f8b60dadb84edbf024389e",
+      "size": 509998,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/92d2e9d49dce0d37c3f8b60dadb84edbf024389e"
+    },
+    {
+      "path": "fingers/~$params_finger_t.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c393b44b3215a068fa61dfbc774c7f38d841538",
+      "size": 9,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1c393b44b3215a068fa61dfbc774c7f38d841538"
+    },
+    {
+      "path": "model t42/a1_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df8f38f1b929b76b5b706206b958f234481006ee",
+      "size": 531092,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/df8f38f1b929b76b5b706206b958f234481006ee"
+    },
+    {
+      "path": "model t42/a2_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf42a190ad94a0d06df9f3a05246f3e25262a7b2",
+      "size": 548164,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/cf42a190ad94a0d06df9f3a05246f3e25262a7b2"
+    },
+    {
+      "path": "model t42/a3_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ee716c93523b1a8ec0769537bf5d5684dcef0319",
+      "size": 511713,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/ee716c93523b1a8ec0769537bf5d5684dcef0319"
+    },
+    {
+      "path": "model t42/a4_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6be051563f98c3f49123df241f255a3f2958cb94",
+      "size": 216820,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/6be051563f98c3f49123df241f255a3f2958cb94"
+    },
+    {
+      "path": "model t42/a_base_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d1aae0568594f8277334b8ebc212479eb0aee85",
+      "size": 78101,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7d1aae0568594f8277334b8ebc212479eb0aee85"
+    },
+    {
+      "path": "model t42/b1_power_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98bcd482489bead66809eee0a42fb47fa22d9c97",
+      "size": 187266,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/98bcd482489bead66809eee0a42fb47fa22d9c97"
+    },
+    {
+      "path": "model t42/b1_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4986ea81356df6d6174dbaac9e680ddf5ba3481",
+      "size": 144719,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/e4986ea81356df6d6174dbaac9e680ddf5ba3481"
+    },
+    {
+      "path": "model t42/b1_xm_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8493f5d80380f569b41a5c967a416cda77c132b4",
+      "size": 148446,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/8493f5d80380f569b41a5c967a416cda77c132b4"
+    },
+    {
+      "path": "model t42/b2_power_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cc0dad1c5fda293c14d946ad1543cfbe4105223",
+      "size": 201920,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7cc0dad1c5fda293c14d946ad1543cfbe4105223"
+    },
+    {
+      "path": "model t42/b2_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1802659bc69bc5023ba518adada9785c0e470419",
+      "size": 199955,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1802659bc69bc5023ba518adada9785c0e470419"
+    },
+    {
+      "path": "model t42/block_actuator_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60d7d2cad894ee50be23de84882b706d1bfe511b",
+      "size": 1839604,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/60d7d2cad894ee50be23de84882b706d1bfe511b"
+    },
+    {
+      "path": "model t42/block_dynamixel_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83dedd76cd7612bad9ff32396ec08c65e1fe4f49",
+      "size": 1532026,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/83dedd76cd7612bad9ff32396ec08c65e1fe4f49"
+    },
+    {
+      "path": "model t42/block_finger_ff_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "51d183be8411aaf08514bad0028626d7754bfb4d",
+      "size": 900608,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/51d183be8411aaf08514bad0028626d7754bfb4d"
+    },
+    {
+      "path": "model t42/block_finger_pf_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b682a9ffce8c3bb4eb1f0e0b3666754eb1453db7",
+      "size": 690723,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/b682a9ffce8c3bb4eb1f0e0b3666754eb1453db7"
+    },
+    {
+      "path": "model t42/block_finger_pp_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb78d5090d09e529f9c9dd83226af71bb261f1b7",
+      "size": 754702,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/eb78d5090d09e529f9c9dd83226af71bb261f1b7"
+    },
+    {
+      "path": "model t42/block_power_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e23bde2c8e623ac013f6295028d1738a29fdbc",
+      "size": 146135,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/91e23bde2c8e623ac013f6295028d1738a29fdbc"
+    },
+    {
+      "path": "model t42/c1_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcbbdfeab9289a937308cef19860c9bf69fe5e09",
+      "size": 198581,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/dcbbdfeab9289a937308cef19860c9bf69fe5e09"
+    },
+    {
+      "path": "model t42/d1_t42.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f68daf166fdefe10fcfd32a7fa9a7f439dd6249",
+      "size": 193894,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9f68daf166fdefe10fcfd32a7fa9a7f439dd6249"
+    },
+    {
+      "path": "model t42/d1_t42_fan.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b96df2794c2d7f1dba1030bb60da3d19b5ecbe71",
+      "size": 222753,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/b96df2794c2d7f1dba1030bb60da3d19b5ecbe71"
+    },
+    {
+      "path": "model t42/d2.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fc7ed1d281bae1a7a8fecc11860ea45e8b804bf",
+      "size": 235404,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4fc7ed1d281bae1a7a8fecc11860ea45e8b804bf"
+    },
+    {
+      "path": "model t42/edrawings/block_actuator_t42.EASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6da13edbc59073fc81ad9623fa2f075924e35171",
+      "size": 1262123,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/6da13edbc59073fc81ad9623fa2f075924e35171"
+    },
+    {
+      "path": "model t42/edrawings/block_finger_ff_t42.EASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8f25b502dd9cc175cc57eb341350353274f179a",
+      "size": 310601,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/f8f25b502dd9cc175cc57eb341350353274f179a"
+    },
+    {
+      "path": "model t42/edrawings/block_finger_pf_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a68e1743994a542c563c3e51cf4c2b337c466465",
+      "size": 884736,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/a68e1743994a542c563c3e51cf4c2b337c466465"
+    },
+    {
+      "path": "model t42/edrawings/block_finger_pp_t42.EASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4064e6d8f10f5b8783bc6a7c5e5b58ebc6bdb616",
+      "size": 320218,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4064e6d8f10f5b8783bc6a7c5e5b58ebc6bdb616"
+    },
+    {
+      "path": "model t42/edrawings/hand_t42.EASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "886c1678a4309600cd7679ad7df11bd5c5476445",
+      "size": 1760017,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/886c1678a4309600cd7679ad7df11bd5c5476445"
+    },
+    {
+      "path": "model t42/hand_t42.SLDASM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e135d9c555e2ae5841a58a076f491a9ad1aa7052",
+      "size": 2398179,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/e135d9c555e2ae5841a58a076f491a9ad1aa7052"
+    },
+    {
+      "path": "model t42/step/a1_f_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8423bf728c7acf59360e8ffcef38cf0831ac4b7",
+      "size": 215109,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/f8423bf728c7acf59360e8ffcef38cf0831ac4b7"
+    },
+    {
+      "path": "model t42/step/a1_p_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f94c3b7a64be660841dded75a75a79d0aad731e",
+      "size": 215035,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7f94c3b7a64be660841dded75a75a79d0aad731e"
+    },
+    {
+      "path": "model t42/step/a2_dynamixel_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5250c1ec4bd4d723d6565325b57d7b4c0cfd679e",
+      "size": 171460,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/5250c1ec4bd4d723d6565325b57d7b4c0cfd679e"
+    },
+    {
+      "path": "model t42/step/a2_power_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e16cfb90df48339a916e301b07b82164ce8e6cb",
+      "size": 177670,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/4e16cfb90df48339a916e301b07b82164ce8e6cb"
+    },
+    {
+      "path": "model t42/step/a3_dynamixel_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21b95b3127160767aab8b04b39ba1402f8b4a10a",
+      "size": 142104,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/21b95b3127160767aab8b04b39ba1402f8b4a10a"
+    },
+    {
+      "path": "model t42/step/a3_power_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29771c79e14011e2c255cbf67bd63d1465f8c1be",
+      "size": 137466,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/29771c79e14011e2c255cbf67bd63d1465f8c1be"
+    },
+    {
+      "path": "model t42/step/a4_blank_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a32fec40b93fc817e9106f4b92d6b76fbd2a8720",
+      "size": 52117,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/a32fec40b93fc817e9106f4b92d6b76fbd2a8720"
+    },
+    {
+      "path": "model t42/step/a4_coupling_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d03f850a2806b833610f683314a6e2d23b1e9fe",
+      "size": 190908,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9d03f850a2806b833610f683314a6e2d23b1e9fe"
+    },
+    {
+      "path": "model t42/step/b1_dynamixel_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cea231afdfd7367c16d9b352a3a8b77aeebe2e89",
+      "size": 111558,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/cea231afdfd7367c16d9b352a3a8b77aeebe2e89"
+    },
+    {
+      "path": "model t42/step/b1_power_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca89d4d22fc8ba3b6f5807277a4480b063eec26",
+      "size": 149828,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/aca89d4d22fc8ba3b6f5807277a4480b063eec26"
+    },
+    {
+      "path": "model t42/step/b2_dynamixel_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef6b8f029c4d8fb7e4525843f91fbdbb5ea20b6e",
+      "size": 178970,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/ef6b8f029c4d8fb7e4525843f91fbdbb5ea20b6e"
+    },
+    {
+      "path": "model t42/step/b2_power_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b3b903c9d2db5f928bdbc8ea5bf2ab8de44f61a",
+      "size": 209725,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/2b3b903c9d2db5f928bdbc8ea5bf2ab8de44f61a"
+    },
+    {
+      "path": "model t42/step/c1_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "843482d2ca62aeb37f516d91b6e95379c09a8ed0",
+      "size": 154169,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/843482d2ca62aeb37f516d91b6e95379c09a8ed0"
+    },
+    {
+      "path": "model t42/step/d1_fan_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ad2f65f0e4008b8071c32288203cbb8d39ee12",
+      "size": 252750,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/72ad2f65f0e4008b8071c32288203cbb8d39ee12"
+    },
+    {
+      "path": "model t42/step/d1_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ba756e4f09443431a86d05e68f879bfa40e99a7",
+      "size": 268233,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/5ba756e4f09443431a86d05e68f879bfa40e99a7"
+    },
+    {
+      "path": "model t42/step/d2_power_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3576bdc83eeb8950cea72d7de15cec44d6507d1",
+      "size": 149158,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/c3576bdc83eeb8950cea72d7de15cec44d6507d1"
+    },
+    {
+      "path": "model t42/step/d2_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb1c23ad6a0e7f5c6e34861858bbe2816327b843",
+      "size": 149115,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/eb1c23ad6a0e7f5c6e34861858bbe2816327b843"
+    },
+    {
+      "path": "model t42/step/finger_ff_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e13375cfed71a2d343837b013995e948c994c747",
+      "size": 876470,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/e13375cfed71a2d343837b013995e948c994c747"
+    },
+    {
+      "path": "model t42/step/finger_pf_ext_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdebd1a49fc3e7b3d2d01e0d7ca280d143f9d8d0",
+      "size": 723258,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/bdebd1a49fc3e7b3d2d01e0d7ca280d143f9d8d0"
+    },
+    {
+      "path": "model t42/step/finger_pf_torsion_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b9b257c958006f39d65c65062fcdcb853e538cb4",
+      "size": 719900,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/b9b257c958006f39d65c65062fcdcb853e538cb4"
+    },
+    {
+      "path": "model t42/step/finger_pp_B_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25348f912717098e943d8696a19917f75418cc1e",
+      "size": 330604,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/25348f912717098e943d8696a19917f75418cc1e"
+    },
+    {
+      "path": "model t42/step/finger_pp_ext_A_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be9891c4abfb03b32bf8b18a0cd53c95831c0367",
+      "size": 443004,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/be9891c4abfb03b32bf8b18a0cd53c95831c0367"
+    },
+    {
+      "path": "model t42/step/finger_pp_torsion_A_t42.STEP",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a504740c4b330b33819ada58ce4ca3dca2db06e2",
+      "size": 443611,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/a504740c4b330b33819ada58ce4ca3dca2db06e2"
+    },
+    {
+      "path": "model t42/stl/a1_f_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "313e1ce8710143cee55cd1647aa9399d82f9d27f",
+      "size": 122684,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/313e1ce8710143cee55cd1647aa9399d82f9d27f"
+    },
+    {
+      "path": "model t42/stl/a1_p_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25b146eb1c1e1b9aac0af1ecfbcf8d2a6729ed14",
+      "size": 122884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/25b146eb1c1e1b9aac0af1ecfbcf8d2a6729ed14"
+    },
+    {
+      "path": "model t42/stl/a2_dynamixel_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35b8f34ac3ee59951a8154910540becefb127258",
+      "size": 96284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/35b8f34ac3ee59951a8154910540becefb127258"
+    },
+    {
+      "path": "model t42/stl/a2_power_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf84a97cfb821c2620309bb4d1592009b3be287c",
+      "size": 98684,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/cf84a97cfb821c2620309bb4d1592009b3be287c"
+    },
+    {
+      "path": "model t42/stl/a2_xm_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ed4b75ef0c907018381c729f1d0b4680efe39645",
+      "size": 225584,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/ed4b75ef0c907018381c729f1d0b4680efe39645"
+    },
+    {
+      "path": "model t42/stl/a3_dynamixel_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb9235362200ab7b87ed74c7319ba4aaacb0a4c8",
+      "size": 76084,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/fb9235362200ab7b87ed74c7319ba4aaacb0a4c8"
+    },
+    {
+      "path": "model t42/stl/a3_power_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9db28b777ad9edda60ba32f6533d7f4d1928e5ef",
+      "size": 75984,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9db28b777ad9edda60ba32f6533d7f4d1928e5ef"
+    },
+    {
+      "path": "model t42/stl/a3_xm_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1676fd2649770ad04deef874618b2a181093415f",
+      "size": 166984,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1676fd2649770ad04deef874618b2a181093415f"
+    },
+    {
+      "path": "model t42/stl/a4_blank_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3d02860f029001da2535a11aebbcbf2e1bc3f7a4",
+      "size": 52284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/3d02860f029001da2535a11aebbcbf2e1bc3f7a4"
+    },
+    {
+      "path": "model t42/stl/a4_coupling_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02ecc6bb124b40d63362691e66def80160a84d25",
+      "size": 137684,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/02ecc6bb124b40d63362691e66def80160a84d25"
+    },
+    {
+      "path": "model t42/stl/b1_dynamixel_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db9f821c235260b5bcf090980169ca361b9858e7",
+      "size": 248984,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/db9f821c235260b5bcf090980169ca361b9858e7"
+    },
+    {
+      "path": "model t42/stl/b1_power_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7081d73805abfafce926da47541f5327ad991566",
+      "size": 309284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/7081d73805abfafce926da47541f5327ad991566"
+    },
+    {
+      "path": "model t42/stl/b1_xm_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9378ef0f69a6ffbd36cd2b2e72daa066b7e3d98e",
+      "size": 278484,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9378ef0f69a6ffbd36cd2b2e72daa066b7e3d98e"
+    },
+    {
+      "path": "model t42/stl/b2_dynamixel_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "044efa9e39eb96384dd62fcf29d952eb328b0f0f",
+      "size": 43684,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/044efa9e39eb96384dd62fcf29d952eb328b0f0f"
+    },
+    {
+      "path": "model t42/stl/b2_power_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58f4cf2d747bede88ee1937765e9c777945f3ce5",
+      "size": 136284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/58f4cf2d747bede88ee1937765e9c777945f3ce5"
+    },
+    {
+      "path": "model t42/stl/c1_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ea2050186c51cf853eeb0b10166cab4314e760a",
+      "size": 118484,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/3ea2050186c51cf853eeb0b10166cab4314e760a"
+    },
+    {
+      "path": "model t42/stl/d1_fan_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "56eaa7163d5cabf7870b9a1394ec2fda3f3ddbee",
+      "size": 15584,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/56eaa7163d5cabf7870b9a1394ec2fda3f3ddbee"
+    },
+    {
+      "path": "model t42/stl/d1_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79083c9c31227fad486b324e0f2ce3c6972408c4",
+      "size": 15484,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/79083c9c31227fad486b324e0f2ce3c6972408c4"
+    },
+    {
+      "path": "model t42/stl/d2_power_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54e14731609e2bef5af8c70ce4e00f8173c60bf7",
+      "size": 57884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/54e14731609e2bef5af8c70ce4e00f8173c60bf7"
+    },
+    {
+      "path": "model t42/stl/d2_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa583912924cc0b07167ab3e9f9addeef3d01c89",
+      "size": 57284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/fa583912924cc0b07167ab3e9f9addeef3d01c89"
+    },
+    {
+      "path": "model t42/stl/finger_ff_mold1_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76c4d76c1245e24e342f669f8d5df45502a622bf",
+      "size": 128284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/76c4d76c1245e24e342f669f8d5df45502a622bf"
+    },
+    {
+      "path": "model t42/stl/finger_ff_mold1_B_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "542a6b6f64bdbfaaba66e8e17a9ef1d54341e706",
+      "size": 82084,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/542a6b6f64bdbfaaba66e8e17a9ef1d54341e706"
+    },
+    {
+      "path": "model t42/stl/finger_ff_mold1_C_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "747000cd493db4ddfbb2d0432ed0775704723a56",
+      "size": 40584,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/747000cd493db4ddfbb2d0432ed0775704723a56"
+    },
+    {
+      "path": "model t42/stl/finger_ff_mold2_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a85d97561d483f36c2f57cbe589bfb064f14a4a4",
+      "size": 51084,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/a85d97561d483f36c2f57cbe589bfb064f14a4a4"
+    },
+    {
+      "path": "model t42/stl/finger_ff_mold3_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ffb5fdecfb214e12ed27675b325a22151f1c0d8a",
+      "size": 35984,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/ffb5fdecfb214e12ed27675b325a22151f1c0d8a"
+    },
+    {
+      "path": "model t42/stl/finger_ff_mold4_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "677a15b29dbe4620d3240a3241312c0ddfa6b9c5",
+      "size": 107684,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/677a15b29dbe4620d3240a3241312c0ddfa6b9c5"
+    },
+    {
+      "path": "model t42/stl/finger_ff_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "95f277002200a81b3ed1cc65a9c56b313153a86f",
+      "size": 309184,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/95f277002200a81b3ed1cc65a9c56b313153a86f"
+    },
+    {
+      "path": "model t42/stl/finger_pf_ext_mold1_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ab334f8f4dc330465aa5d5d9bf311025fcc4b78",
+      "size": 109884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/9ab334f8f4dc330465aa5d5d9bf311025fcc4b78"
+    },
+    {
+      "path": "model t42/stl/finger_pf_ext_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80f61401d62d00df59888df6064fa6d1ddf4cbec",
+      "size": 189184,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/80f61401d62d00df59888df6064fa6d1ddf4cbec"
+    },
+    {
+      "path": "model t42/stl/finger_pf_mold1_B_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd2ffce16b9c396220d7d206ee4e56ffd3ce1da2",
+      "size": 40584,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/bd2ffce16b9c396220d7d206ee4e56ffd3ce1da2"
+    },
+    {
+      "path": "model t42/stl/finger_pf_mold2_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a85aa534ab3f716f95cfef2576ef6d6c6bc97c3",
+      "size": 43084,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/6a85aa534ab3f716f95cfef2576ef6d6c6bc97c3"
+    },
+    {
+      "path": "model t42/stl/finger_pf_mold3_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61a47a8f2abd609a9ed95b4921c02be6368fdd23",
+      "size": 25984,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/61a47a8f2abd609a9ed95b4921c02be6368fdd23"
+    },
+    {
+      "path": "model t42/stl/finger_pf_mold4_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "47d18f7cc468838fef1df15421d816a8bbbfab09",
+      "size": 125984,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/47d18f7cc468838fef1df15421d816a8bbbfab09"
+    },
+    {
+      "path": "model t42/stl/finger_pf_torsion_mold1_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06374c6f3577b57883d44fc20f639839d6e7fa89",
+      "size": 109484,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/06374c6f3577b57883d44fc20f639839d6e7fa89"
+    },
+    {
+      "path": "model t42/stl/finger_pf_torsion_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44d2b7200dc24aaa706dc236faf26d45fc2a8695",
+      "size": 188784,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/44d2b7200dc24aaa706dc236faf26d45fc2a8695"
+    },
+    {
+      "path": "model t42/stl/finger_pp_B_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1c265af32f7735e7912fda730278fab88d70db9",
+      "size": 104884,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/f1c265af32f7735e7912fda730278fab88d70db9"
+    },
+    {
+      "path": "model t42/stl/finger_pp_ext_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72bc335b43163ccb38add1f9c2b60c8db433cd36",
+      "size": 146284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/72bc335b43163ccb38add1f9c2b60c8db433cd36"
+    },
+    {
+      "path": "model t42/stl/finger_pp_ext_mold1_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f05c522d750c6e4aed0e0a8fee8966e3cf17790d",
+      "size": 126284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/f05c522d750c6e4aed0e0a8fee8966e3cf17790d"
+    },
+    {
+      "path": "model t42/stl/finger_pp_mold1_B_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "081fed5f4dfc1afaca7b4d42163e7dd347742c72",
+      "size": 87284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/081fed5f4dfc1afaca7b4d42163e7dd347742c72"
+    },
+    {
+      "path": "model t42/stl/finger_pp_mold2_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3e6ddeb441611b6de9840db9c101940505ad33d",
+      "size": 27284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/c3e6ddeb441611b6de9840db9c101940505ad33d"
+    },
+    {
+      "path": "model t42/stl/finger_pp_mold2_B_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "164ecfb792bc95366b3e524945bc1f853039acf0",
+      "size": 17484,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/164ecfb792bc95366b3e524945bc1f853039acf0"
+    },
+    {
+      "path": "model t42/stl/finger_pp_mold3_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c723e5beb4465cd3f7cc8e21e1d6657fc2b899d3",
+      "size": 19084,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/c723e5beb4465cd3f7cc8e21e1d6657fc2b899d3"
+    },
+    {
+      "path": "model t42/stl/finger_pp_mold3_B_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19231bf6ee4d279f6efb33767c2047c1f98355ca",
+      "size": 21984,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/19231bf6ee4d279f6efb33767c2047c1f98355ca"
+    },
+    {
+      "path": "model t42/stl/finger_pp_mold4_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "726457dfe76a6d5b2d567b963173b5e6aee2e100",
+      "size": 223584,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/726457dfe76a6d5b2d567b963173b5e6aee2e100"
+    },
+    {
+      "path": "model t42/stl/finger_pp_mold4_B_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c4ab3b80309891f1878d089687872d5173eaaf1",
+      "size": 215184,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/1c4ab3b80309891f1878d089687872d5173eaaf1"
+    },
+    {
+      "path": "model t42/stl/finger_pp_torsion_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fc87b4b12728f6afed922f3e3e344f00c77826e",
+      "size": 150284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/8fc87b4b12728f6afed922f3e3e344f00c77826e"
+    },
+    {
+      "path": "model t42/stl/finger_pp_torsion_mold1_A_t42.STL",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35eed4c442a51b3c5840b02740b3aa6d58562164",
+      "size": 130284,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/35eed4c442a51b3c5840b02740b3aa6d58562164"
+    },
+    {
+      "path": "params_print.SLDPRT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b96a9747d4449c41f4d9059948c59720716b738",
+      "size": 47245,
+      "url": "https://api.github.com/repos/grablab/openhand-hardware/git/blobs/2b96a9747d4449c41f4d9059948c59720716b738"
+    }
+  ]
+}

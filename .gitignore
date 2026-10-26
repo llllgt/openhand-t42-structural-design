@@ -1,0 +1,9 @@
+__pycache__/
+.venv/
+tmp/
+*.log
+results/inspection/
+results/fea/*.npz
+results/fea/*_2.0.json
+results/fea/*_1.2.json
+!results/fea/*_p2_*.json

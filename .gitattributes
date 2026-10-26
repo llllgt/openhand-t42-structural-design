@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.STEP binary
+*.step binary
+*.stl binary
+*.pdf binary
+*.png binary
+*.zip binary
+assets/*.svg binary

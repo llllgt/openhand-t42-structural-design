@@ -1,0 +1,16 @@
+{
+  "units": "mm, N, MPa",
+  "upstream_part": "a1_p_t42.STEP",
+  "revision": "A",
+  "bottom_z_mm": -2.997,
+  "nominal_central_floor_mm": 3.0,
+  "pocket_corner_radius_mm": 2.0,
+  "pocket_width_mm": 10.0,
+  "pocket_length_mm": 24.0,
+  "pocket_centers_mm": [[-7,-16],[-7,16],[7,-16],[7,16]],
+  "candidate_depths_mm": [1.0,1.8,2.4],
+  "minimum_floor_design_rule_mm": 1.2,
+  "material_assumption": {"E_MPa":2000.0,"nu":0.35,"density_g_cm3":1.20,"status":"generic isotropic polymer assumption; not a measured printed material"},
+  "selection_rule": {"max_compliance_increase_fraction":0.10,"minimum_floor_mm":1.2},
+  "loads": {"each_finger_reference_force_N":10.0,"meaning":"separate top-plate interface load cases; not fingertip load or gripper payload"}
+}

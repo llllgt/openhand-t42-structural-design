@@ -1,0 +1,14 @@
+{
+  "baseline_p2_2.4_opposed_500Nmm.npz": "dbcf9217b73547295fd1139f7ee47f27bb9f23f2c7c3076eb620a942135bfdf8",
+  "baseline_p2_2.4_spread_10N_each.npz": "74d07dc8de22512ff2571caa92b12f69071de1ebb23dbca1ad1fbe80e4a7c475",
+  "baseline_p2_2.4_vertical_20N.npz": "c4c666a8410f4cff615b241434f31fb97272ce1bc6fcf9840897d6dff1378abf",
+  "baseline_p2_3.0_opposed_500Nmm.npz": "84e0660eb472d4f63fd576e9e35cfe97e09593ace18b27da2dd3741767542b1d",
+  "baseline_p2_3.0_spread_10N_each.npz": "fc10c4d3cff144d3666d9bfa6f8bb8114eee157b57e2c3f86307d5d656825ef0",
+  "baseline_p2_3.0_vertical_20N.npz": "caf5d1c169382f78e0240a35b526afa4c9c46a9eb8b41f51eddaf07ea6e23e44",
+  "pocket_1p8_p2_2.4_opposed_500Nmm.npz": "6afcbb85433432bd9a636b4b0d7723a09bf401aba96b2d49d5c543ecf4fe922c",
+  "pocket_1p8_p2_2.4_spread_10N_each.npz": "7db98d5927e9963438c0f8e44a2873275d9ceabb7e4dcfb45fa5a066f71e667e",
+  "pocket_1p8_p2_2.4_vertical_20N.npz": "4956ac30e539a916cc25250cb5a11b79f2d46fdfd722e27fda09306c9dbb6151",
+  "pocket_1p8_p2_3.0_opposed_500Nmm.npz": "37c13e70aa62f4d940e8a5da1cbfe1e778f1be47b67a8102a30263a06506bf16",
+  "pocket_1p8_p2_3.0_spread_10N_each.npz": "ac9c6c2b2c23233c4a5275cfe3e14163bec6b4bc3a2c208720f1cde130b3a897",
+  "pocket_1p8_p2_3.0_vertical_20N.npz": "b594c999a6f29061ef8dd4ee2a15d6c0fa51919c04e1b381e48d13dc183cde81"
+}
