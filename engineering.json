@@ -1,0 +1,33 @@
+{
+  "revision": "B",
+  "scope": "Idealized two-contact quasi-static study of the pivot-pivot upper mechanism; no tested grasp rating",
+  "geometry_source": "results/engineering/geometry.json",
+  "rest_angles_deg": [15.0, 15.0],
+  "target_angles_deg": [55.0, 90.0],
+  "joint_moment_arms_mm": [8.0, 8.0],
+  "moment_arm_source": "Yale CAD Guide nominal transmission radii; constant-radius approximation, not full routed cable contact",
+  "equivalent_spring_rates_Nmm_per_rad": [20.0, 40.0],
+  "spring_status": "Study design targets; not measured or attributed to original springs",
+  "contact_distances_mm": [35.0, 25.0],
+  "contact_pad_offset_mm": 13.5,
+  "contact_status": "Two prescribed frictionless contacts normal to each phalanx; illustrative enveloping object, not a specified object CAD",
+  "target_distal_normal_force_N": 5.0,
+  "tendon_diameter_assumption_mm": 0.5,
+  "drum_groove_root_mm": 10.5,
+  "drum_effective_radius_mm": 10.75,
+  "drive_efficiency_assumption": 0.75,
+  "load_multiplier": 1.5,
+  "closure_time_target_s": 1.0,
+  "material_fe": {"name": "PA2200 Balance reference isotropic approximation", "E_MPa": 1650.0, "nu_assumption": 0.35, "density_g_cm3": 0.93},
+  "tolerance_proposals_mm": {
+    "blank_floor": [2.85, 3.15],
+    "old_pocket_depth": [1.65, 1.8],
+    "revised_pocket_depth": [1.5, 1.65],
+    "finished_slot_length": [31.85, 31.95],
+    "finished_bracket_width": [31.55, 31.65],
+    "measured_joint_pin": [6.344, 6.35],
+    "finished_retained_hole": [6.325, 6.34],
+    "finished_rotating_hole": [6.375, 6.4]
+  },
+  "status": "All additional operating conditions and process tolerances are declared design-study inputs; actual spring, tendon friction, process capability and continuous motor duty require validation."
+}

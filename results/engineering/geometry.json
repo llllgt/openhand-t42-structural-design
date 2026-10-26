@@ -1,0 +1,853 @@
+{
+  "proximal_axis_source_mm": [
+    0.029351830491089213,
+    0.03075256953281168,
+    0.015874999999999417
+  ],
+  "distal_axis_source_mm": [
+    -41.637314836175435,
+    -46.55399696171294,
+    0.015874999999999417
+  ],
+  "distal_link_axis_source_mm": [
+    0.005427710532155874,
+    0.023320717935979146,
+    0.015875000000003858
+  ],
+  "proximal_length_mm": 62.5,
+  "distal_nominal_length_mm": 37.5,
+  "distal_length_source": "Yale CAD Guide p.8 (PDF p.9); nominal contact datum",
+  "canonical_proximal_rotation_deg": -131.81031489577842,
+  "canonical_distal_rotation_deg": -108.0304976959896,
+  "right_proximal_axis_world_mm": [
+    29.925000000000008,
+    0.0,
+    14.938281680828148
+  ],
+  "bracket_translation_mm": [
+    -0.044797083757817546,
+    0,
+    -5.9836346792529715
+  ],
+  "bracket_width_mm": 31.750000000000004,
+  "bracket_flange_width_mm": 28.749999999999996,
+  "mounting_slot_width_mm": 20.9,
+  "mounting_slot_length_mm": 31.9,
+  "joint_pin_nominal_mm": 6.35,
+  "raw_retained_bore_mm": 6.5,
+  "raw_rotating_bore_mm": 7.05,
+  "tendon_inlet_x_mm": 40.42500000000001,
+  "assumptions": [
+    "Bracket flange upper face mated to plate underside Z=-2.997",
+    "Bracket centered at X=31.3, Y=0; mirrored by 180 deg about Z",
+    "Distal datum uses longitudinal pad plane; no native assembly mates recovered",
+    "Incoming tendon diameter 0.5 mm is a study assumption",
+    "Motor, springs, tendon and cast pads not included in solid collision model"
+  ],
+  "bracket_plate_overlap_mm3": 0,
+  "bracket_plate_distance_mm": 4.440892098500626e-16,
+  "pose_checks": [
+    {
+      "q1_deg": 15,
+      "q2_deg": 15,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": true
+    },
+    {
+      "q1_deg": 30,
+      "q2_deg": 30,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": true
+    },
+    {
+      "q1_deg": 45,
+      "q2_deg": 45,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": true
+    },
+    {
+      "q1_deg": 55,
+      "q2_deg": 75,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": true
+    },
+    {
+      "q1_deg": 55,
+      "q2_deg": 90,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": true
+    },
+    {
+      "q1_deg": 55,
+      "q2_deg": 100,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 161.37787345209915
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": false
+    },
+    {
+      "q1_deg": 70,
+      "q2_deg": 85,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": true
+    },
+    {
+      "q1_deg": 85,
+      "q2_deg": 90,
+      "pairs": [
+        {
+          "parts": [
+            "proximal_R",
+            "distal_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "plate"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "mount_R"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "distal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 4433.227853160099
+        },
+        {
+          "parts": [
+            "distal_R",
+            "proximal_L"
+          ],
+          "overlap_mm3": 0.0
+        },
+        {
+          "parts": [
+            "proximal_R",
+            "distal_L"
+          ],
+          "overlap_mm3": 0.0
+        }
+      ],
+      "clear": false
+    }
+  ],
+  "joint_sweeps": [
+    {
+      "sweep": "distal",
+      "angle_deg": 0,
+      "overlap_mm3": 113.89114885922832
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 5,
+      "overlap_mm3": 60.277674186753885
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 10,
+      "overlap_mm3": 16.930669739260125
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 15,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 20,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 25,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 30,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 35,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 40,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 45,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 50,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 55,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 60,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 65,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 70,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 75,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 80,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 85,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 90,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 95,
+      "overlap_mm3": 8.77642289972576
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 100,
+      "overlap_mm3": 161.37787345210327
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 105,
+      "overlap_mm3": 332.39893924173555
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 110,
+      "overlap_mm3": 484.47343568287494
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 115,
+      "overlap_mm3": 728.1539519569984
+    },
+    {
+      "sweep": "distal",
+      "angle_deg": 120,
+      "overlap_mm3": 1087.4972316935452
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 0,
+      "overlap_mm3": 29.41758348958027
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 5,
+      "overlap_mm3": 12.84021448709391
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 10,
+      "overlap_mm3": 1.3317733434174204
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 15,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 20,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 25,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 30,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 35,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 40,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 45,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 50,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 55,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 60,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 65,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 70,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 75,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 80,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 85,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 90,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 95,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 100,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 105,
+      "overlap_mm3": 0
+    },
+    {
+      "sweep": "proximal",
+      "angle_deg": 110,
+      "overlap_mm3": 0
+    }
+  ]
+}

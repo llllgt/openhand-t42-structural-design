@@ -1,0 +1,79 @@
+{
+  "revision": "B",
+  "pocket_depth_nominal_mm": 1.65,
+  "nominal_floor_mm": 1.35,
+  "worst_case_floor_mm": 1.2000000000000002,
+  "baseline_volume_mm3": 30774.92441717976,
+  "volume_mm3": 29213.586371125002,
+  "volume_reduction_percent": 5.073409847866794,
+  "original_bracket_width_mm": 31.75,
+  "finished_bracket_width_mm": 31.6,
+  "source_bracket_volume_mm3": 7461.896082566652,
+  "finished_bracket_volume_mm3": 7440.179029991655,
+  "original_plate_interface_preserved": true,
+  "finished_retained_bore_nominal_mm": 6.3325,
+  "finished_rotating_bore_nominal_mm": 6.3875,
+  "final_bore_status": "Post-processing target geometry; coupon calibration and reaming required, not raw print compensation",
+  "removed_outside_design_region_mm3": 0,
+  "coupon": {
+    "size_mm": [
+      70,
+      36,
+      8
+    ],
+    "holes": [
+      {
+        "x_mm": -26,
+        "y_mm": 9,
+        "CAD_diameter_mm": 6.15
+      },
+      {
+        "x_mm": -13,
+        "y_mm": 9,
+        "CAD_diameter_mm": 6.25
+      },
+      {
+        "x_mm": 0,
+        "y_mm": 9,
+        "CAD_diameter_mm": 6.35
+      },
+      {
+        "x_mm": 13,
+        "y_mm": 9,
+        "CAD_diameter_mm": 6.45
+      },
+      {
+        "x_mm": 26,
+        "y_mm": 9,
+        "CAD_diameter_mm": 6.55
+      },
+      {
+        "x_mm": -26,
+        "y_mm": -9,
+        "CAD_diameter_mm": 3.0
+      },
+      {
+        "x_mm": -13,
+        "y_mm": -9,
+        "CAD_diameter_mm": 3.1
+      },
+      {
+        "x_mm": 0,
+        "y_mm": -9,
+        "CAD_diameter_mm": 3.2
+      },
+      {
+        "x_mm": 13,
+        "y_mm": -9,
+        "CAD_diameter_mm": 3.3
+      },
+      {
+        "x_mm": 26,
+        "y_mm": -9,
+        "CAD_diameter_mm": 3.4
+      }
+    ],
+    "notch_corner": "X-, Y+",
+    "status": "Calibration coupon; not measured"
+  }
+}

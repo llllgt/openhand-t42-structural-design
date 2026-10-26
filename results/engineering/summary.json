@@ -1,0 +1,1441 @@
+{
+  "revision": "B",
+  "cad": {
+    "revision": "B",
+    "pocket_depth_nominal_mm": 1.65,
+    "nominal_floor_mm": 1.35,
+    "worst_case_floor_mm": 1.2000000000000002,
+    "baseline_volume_mm3": 30774.92441717976,
+    "volume_mm3": 29213.586371125002,
+    "volume_reduction_percent": 5.073409847866794,
+    "original_bracket_width_mm": 31.75,
+    "finished_bracket_width_mm": 31.6,
+    "source_bracket_volume_mm3": 7461.896082566652,
+    "finished_bracket_volume_mm3": 7440.179029991655,
+    "original_plate_interface_preserved": true,
+    "finished_retained_bore_nominal_mm": 6.3325,
+    "finished_rotating_bore_nominal_mm": 6.3875,
+    "final_bore_status": "Post-processing target geometry; coupon calibration and reaming required, not raw print compensation",
+    "removed_outside_design_region_mm3": 0,
+    "coupon": {
+      "size_mm": [
+        70,
+        36,
+        8
+      ],
+      "holes": [
+        {
+          "x_mm": -26,
+          "y_mm": 9,
+          "CAD_diameter_mm": 6.15
+        },
+        {
+          "x_mm": -13,
+          "y_mm": 9,
+          "CAD_diameter_mm": 6.25
+        },
+        {
+          "x_mm": 0,
+          "y_mm": 9,
+          "CAD_diameter_mm": 6.35
+        },
+        {
+          "x_mm": 13,
+          "y_mm": 9,
+          "CAD_diameter_mm": 6.45
+        },
+        {
+          "x_mm": 26,
+          "y_mm": 9,
+          "CAD_diameter_mm": 6.55
+        },
+        {
+          "x_mm": -26,
+          "y_mm": -9,
+          "CAD_diameter_mm": 3.0
+        },
+        {
+          "x_mm": -13,
+          "y_mm": -9,
+          "CAD_diameter_mm": 3.1
+        },
+        {
+          "x_mm": 0,
+          "y_mm": -9,
+          "CAD_diameter_mm": 3.2
+        },
+        {
+          "x_mm": 13,
+          "y_mm": -9,
+          "CAD_diameter_mm": 3.3
+        },
+        {
+          "x_mm": 26,
+          "y_mm": -9,
+          "CAD_diameter_mm": 3.4
+        }
+      ],
+      "notch_corner": "X-, Y+",
+      "status": "Calibration coupon; not measured"
+    }
+  },
+  "mechanism": {
+    "study_inputs": {
+      "revision": "B",
+      "scope": "Idealized two-contact quasi-static study of the pivot-pivot upper mechanism; no tested grasp rating",
+      "geometry_source": "results/engineering/geometry.json",
+      "rest_angles_deg": [
+        15.0,
+        15.0
+      ],
+      "target_angles_deg": [
+        55.0,
+        90.0
+      ],
+      "joint_moment_arms_mm": [
+        8.0,
+        8.0
+      ],
+      "moment_arm_source": "Yale CAD Guide nominal transmission radii; constant-radius approximation, not full routed cable contact",
+      "equivalent_spring_rates_Nmm_per_rad": [
+        20.0,
+        40.0
+      ],
+      "spring_status": "Study design targets; not measured or attributed to original springs",
+      "contact_distances_mm": [
+        35.0,
+        25.0
+      ],
+      "contact_pad_offset_mm": 13.5,
+      "contact_status": "Two prescribed frictionless contacts normal to each phalanx; illustrative enveloping object, not a specified object CAD",
+      "target_distal_normal_force_N": 5.0,
+      "tendon_diameter_assumption_mm": 0.5,
+      "drum_groove_root_mm": 10.5,
+      "drum_effective_radius_mm": 10.75,
+      "drive_efficiency_assumption": 0.75,
+      "load_multiplier": 1.5,
+      "closure_time_target_s": 1.0,
+      "material_fe": {
+        "name": "PA2200 Balance reference isotropic approximation",
+        "E_MPa": 1650.0,
+        "nu_assumption": 0.35,
+        "density_g_cm3": 0.93
+      },
+      "tolerance_proposals_mm": {
+        "blank_floor": [
+          2.85,
+          3.15
+        ],
+        "old_pocket_depth": [
+          1.65,
+          1.8
+        ],
+        "revised_pocket_depth": [
+          1.5,
+          1.65
+        ],
+        "finished_slot_length": [
+          31.85,
+          31.95
+        ],
+        "finished_bracket_width": [
+          31.55,
+          31.65
+        ],
+        "measured_joint_pin": [
+          6.344,
+          6.35
+        ],
+        "finished_retained_hole": [
+          6.325,
+          6.34
+        ],
+        "finished_rotating_hole": [
+          6.375,
+          6.4
+        ]
+      },
+      "status": "All additional operating conditions and process tolerances are declared design-study inputs; actual spring, tendon friction, process capability and continuous motor duty require validation."
+    },
+    "geometric_DOF": 4,
+    "actuators": 2,
+    "tendon_constraints_per_finger": 1,
+    "uncontrolled_configuration_DOF_per_finger_at_fixed_tendon": 1,
+    "tension_N": 22.169984694978737,
+    "contact_normal_N": [
+      1.0970641012535782,
+      5.0
+    ],
+    "spring_torque_Nmm": [
+      13.962634015954638,
+      52.35987755982989
+    ],
+    "target_wrench_right": {
+      "Fx_N": 3.766544483013166,
+      "Fz_N": -18.70347459117947,
+      "My_Nmm": 426.71920809545145,
+      "contact_points_world_xz_mm": [
+        [
+          38.94162267438523,
+          51.35188512168198
+        ],
+        [
+          37.55144427397647,
+          69.41614275976491
+        ]
+      ],
+      "contact_forces_xz_N": [
+        [
+          0.8986623012579341,
+          -0.6292501176456905
+        ],
+        [
+          2.867882181755232,
+          4.095760221444958
+        ]
+      ],
+      "incoming_tendon_force_xz_N": [
+        0.0,
+        -22.169984694978737
+      ],
+      "note": "Upper-subassembly resultant, not a solved distribution among top plate, bracket and lower plate"
+    },
+    "first_contact_tension_N": 1.7453292519943298,
+    "second_contact_tension_N": 6.544984694978736,
+    "drive": {
+      "effective_radius_mm": 10.75,
+      "torque_Nm": 0.3177697806280286,
+      "design_torque_Nm": 0.47665467094204284,
+      "tendon_stroke_mm": 16.057029118347835,
+      "motor_stroke_deg": 85.58139534883722,
+      "average_motor_rpm": 14.263565891472869,
+      "efficiency_cases": [
+        {
+          "eta": 0.65,
+          "design_torque_Nm": 0.5499861587792803
+        },
+        {
+          "eta": 0.75,
+          "design_torque_Nm": 0.47665467094204284
+        },
+        {
+          "eta": 0.85,
+          "design_torque_Nm": 0.42057765083121434
+        }
+      ],
+      "candidate": "2 x MX-28 at 12 V, preliminary compatibility candidate",
+      "manufacturer_stall_Nm": 2.5,
+      "manufacturer_no_load_rpm": 55,
+      "continuous_duty_qualified": false
+    },
+    "tolerances": {
+      "old_floor_range_mm": [
+        1.05,
+        1.5
+      ],
+      "revised_floor_range_mm": [
+        1.2000000000000002,
+        1.65
+      ],
+      "slot_bracket_clearance_mm": [
+        0.20000000000000284,
+        0.3999999999999986
+      ],
+      "retained_hole_interference_mm": [
+        0.004000000000000448,
+        0.024999999999999467
+      ],
+      "rotating_hole_clearance_mm": [
+        0.025000000000000355,
+        0.05600000000000005
+      ]
+    },
+    "pin_screen": {
+      "load_envelope_N": 108.91052727928468,
+      "span_mm": 27.6,
+      "ear_thickness_mm": 4.15,
+      "double_shear_MPa": 1.7227554599000383,
+      "central_load_bending_MPa": 29.979855418184773,
+      "bearing_MPa": 2.0683717330726057,
+      "minimum_required_yield_MPa_at_factor2": 60.255967008060175,
+      "minimum_required_bearing_allowable_MPa_at_factor2": 4.136743466145211,
+      "status": "Demand calculation only, no supplied pin material certificate; spring end forces excluded"
+    },
+    "sensitivity": [
+      {
+        "kd_Nmm_per_rad": 20.0,
+        "T_N": 18.89749234748937,
+        "N1_N": 0.3490658503988653,
+        "N2_N": 5.0,
+        "admissible": true
+      },
+      {
+        "kd_Nmm_per_rad": 30.0,
+        "T_N": 20.533738521234053,
+        "N1_N": 0.7230649758262218,
+        "N2_N": 5.0,
+        "admissible": true
+      },
+      {
+        "kd_Nmm_per_rad": 40.0,
+        "T_N": 22.169984694978737,
+        "N1_N": 1.0970641012535782,
+        "N2_N": 5.0,
+        "admissible": true
+      },
+      {
+        "kd_Nmm_per_rad": 50.0,
+        "T_N": 23.806230868723418,
+        "N1_N": 1.471063226680934,
+        "N2_N": 4.999999999999999,
+        "admissible": true
+      },
+      {
+        "kd_Nmm_per_rad": 60.0,
+        "T_N": 25.442477042468106,
+        "N1_N": 1.84506235210829,
+        "N2_N": 5.000000000000001,
+        "admissible": true
+      },
+      {
+        "rd_mm": 7.0,
+        "T_N": 25.337125365689985,
+        "N1_N": 1.8209819688447206,
+        "N2_N": 5.0,
+        "admissible": true
+      },
+      {
+        "rd_mm": 8.0,
+        "T_N": 22.169984694978737,
+        "N1_N": 1.0970641012535782,
+        "N2_N": 5.0,
+        "admissible": true
+      },
+      {
+        "rd_mm": 9.0,
+        "T_N": 19.706653062203323,
+        "N1_N": 0.534016870904912,
+        "N2_N": 5.0,
+        "admissible": true
+      }
+    ],
+    "posture_screen": [
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 15,
+        "T_N": 15.625,
+        "N1_N": -9.023270135179672,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 16,
+        "T_N": 15.712266462599716,
+        "N1_N": -8.961679494168047,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 17,
+        "T_N": 15.799532925199433,
+        "N1_N": -8.897474481508794,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 18,
+        "T_N": 15.88679938779915,
+        "N1_N": -8.830668578737052,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 19,
+        "T_N": 15.974065850398866,
+        "N1_N": -8.761276059644292,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 20,
+        "T_N": 16.061332312998584,
+        "N1_N": -8.689311985930354,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 21,
+        "T_N": 16.1485987755983,
+        "N1_N": -8.614792202615536,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 22,
+        "T_N": 16.235865238198016,
+        "N1_N": -8.537733333214048,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 23,
+        "T_N": 16.32313170079773,
+        "N1_N": -8.458152774670296,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 24,
+        "T_N": 16.41039816339745,
+        "N1_N": -8.376068692059652,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 25,
+        "T_N": 16.497664625997164,
+        "N1_N": -8.291500013055154,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 26,
+        "T_N": 16.584931088596882,
+        "N1_N": -8.204466422161977,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 27,
+        "T_N": 16.672197551196597,
+        "N1_N": -8.114988354721335,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 28,
+        "T_N": 16.759464013796315,
+        "N1_N": -8.02308699068568,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 29,
+        "T_N": 16.846730476396033,
+        "N1_N": -7.928784248167076,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 30,
+        "T_N": 16.933996938995747,
+        "N1_N": -7.8321027767607365,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 31,
+        "T_N": 17.021263401595462,
+        "N1_N": -7.733065950645741,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 32,
+        "T_N": 17.10852986419518,
+        "N1_N": -7.631697861465037,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 33,
+        "T_N": 17.1957963267949,
+        "N1_N": -7.528023310986872,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 34,
+        "T_N": 17.283062789394613,
+        "N1_N": -7.42206780354995,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 35,
+        "T_N": 17.37032925199433,
+        "N1_N": -7.313857538294573,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 36,
+        "T_N": 17.457595714594046,
+        "N1_N": -7.203419401182097,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 37,
+        "T_N": 17.544862177193764,
+        "N1_N": -7.090780956805245,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 38,
+        "T_N": 17.63212863979348,
+        "N1_N": -6.975970439991639,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 39,
+        "T_N": 17.719395102393197,
+        "N1_N": -6.859016747203215,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 40,
+        "T_N": 17.80666156499291,
+        "N1_N": -6.739949427734057,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 41,
+        "T_N": 17.89392802759263,
+        "N1_N": -6.618798674709425,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 42,
+        "T_N": 17.981194490192344,
+        "N1_N": -6.495595315888614,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 43,
+        "T_N": 18.068460952792062,
+        "N1_N": -6.37037080427454,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 44,
+        "T_N": 18.155727415391777,
+        "N1_N": -6.243157208532825,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 45,
+        "T_N": 18.242993877991495,
+        "N1_N": -6.113987203223394,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 46,
+        "T_N": 18.33026034059121,
+        "N1_N": -5.9828940588474735,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 47,
+        "T_N": 18.417526803190928,
+        "N1_N": -5.849911631713085,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 48,
+        "T_N": 18.504793265790646,
+        "N1_N": -5.715074353622077,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 49,
+        "T_N": 18.59205972839036,
+        "N1_N": -5.578417221381864,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 50,
+        "T_N": 18.679326190990075,
+        "N1_N": -5.439975786145072,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 51,
+        "T_N": 18.766592653589793,
+        "N1_N": -5.2997861425803015,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 52,
+        "T_N": 18.85385911618951,
+        "N1_N": -5.157884917877338,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 53,
+        "T_N": 18.941125578789226,
+        "N1_N": -5.01430926059017,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 54,
+        "T_N": 19.028392041388944,
+        "N1_N": -4.86909682932117,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 55,
+        "T_N": 19.11565850398866,
+        "N1_N": -4.722285781249921,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 56,
+        "T_N": 19.202924966588377,
+        "N1_N": -4.5739147605101715,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 57,
+        "T_N": 19.29019142918809,
+        "N1_N": -4.424022886418451,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 58,
+        "T_N": 19.37745789178781,
+        "N1_N": -4.272649741557963,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 59,
+        "T_N": 19.464724354387528,
+        "N1_N": -4.119835359721327,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 60,
+        "T_N": 19.551990816987242,
+        "N1_N": -3.9656202137159076,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 61,
+        "T_N": 19.639257279586957,
+        "N1_N": -3.8100452030354086,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 62,
+        "T_N": 19.726523742186675,
+        "N1_N": -3.653151641401491,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 63,
+        "T_N": 19.813790204786393,
+        "N1_N": -3.4949812441791983,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 64,
+        "T_N": 19.901056667386108,
+        "N1_N": -3.3355761156700714,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 65,
+        "T_N": 19.988323129985822,
+        "N1_N": -3.174978736286759,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 66,
+        "T_N": 20.07558959258554,
+        "N1_N": -3.0132319496130826,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 67,
+        "T_N": 20.16285605518526,
+        "N1_N": -2.8503789493534466,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 68,
+        "T_N": 20.250122517784973,
+        "N1_N": -2.6864632661756382,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 69,
+        "T_N": 20.337388980384688,
+        "N1_N": -2.5215287544509573,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 70,
+        "T_N": 20.424655442984406,
+        "N1_N": -2.3556195788957406,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 71,
+        "T_N": 20.511921905584124,
+        "N1_N": -2.188780201118377,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 72,
+        "T_N": 20.59918836818384,
+        "N1_N": -2.0210553660758577,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 73,
+        "T_N": 20.686454830783557,
+        "N1_N": -1.8524900884440398,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 74,
+        "T_N": 20.77372129338327,
+        "N1_N": -1.6831296389057342,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 75,
+        "T_N": 20.86098775598299,
+        "N1_N": -1.513019530360813,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 76,
+        "T_N": 20.948254218582704,
+        "N1_N": -1.3422055040625465,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 77,
+        "T_N": 21.035520681182422,
+        "N1_N": -1.1707335156843734,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 78,
+        "T_N": 21.122787143782137,
+        "N1_N": -0.9986497213213535,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 79,
+        "T_N": 21.210053606381855,
+        "N1_N": -0.8260004634305737,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 80,
+        "T_N": 21.29732006898157,
+        "N1_N": -0.6528322567147947,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 81,
+        "T_N": 21.384586531581288,
+        "N1_N": -0.47919177395361395,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 82,
+        "T_N": 21.471852994181006,
+        "N1_N": -0.3051258317864876,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 83,
+        "T_N": 21.55911945678072,
+        "N1_N": -0.13068137645192743,
+        "N2_N": 5.0,
+        "unilateral_admissible": false
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 84,
+        "T_N": 21.646385919380435,
+        "N1_N": 0.044094530512775724,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 85,
+        "T_N": 21.733652381980153,
+        "N1_N": 0.21915472660695465,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 86,
+        "T_N": 21.82091884457987,
+        "N1_N": 0.39445196273272004,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 87,
+        "T_N": 21.908185307179586,
+        "N1_N": 0.5699389175874874,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 88,
+        "T_N": 21.9954517697793,
+        "N1_N": 0.74556821207852,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 89,
+        "T_N": 22.08271823237902,
+        "N1_N": 0.9212924237550396,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 90,
+        "T_N": 22.169984694978737,
+        "N1_N": 1.0970641012535782,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 91,
+        "T_N": 22.25725115757845,
+        "N1_N": 1.2728357787521158,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 92,
+        "T_N": 22.34451762017817,
+        "N1_N": 1.4485599904286361,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 93,
+        "T_N": 22.431784082777888,
+        "N1_N": 1.624189284919668,
+        "N2_N": 5.000000000000001,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 94,
+        "T_N": 22.519050545377603,
+        "N1_N": 1.7996762397744384,
+        "N2_N": 5.0,
+        "unilateral_admissible": true
+      },
+      {
+        "q1_deg": 55.0,
+        "q2_deg": 95,
+        "T_N": 22.606317007977317,
+        "N1_N": 1.974973475900203,
+        "N2_N": 4.999999999999999,
+        "unilateral_admissible": true
+      }
+    ],
+    "verification": {
+      "equilibrium_residual_Nmm": 0.0,
+      "contact_matrix_finite_difference_error_mm": 2.2314274872314854e-09,
+      "endpoint_Jacobian_error_mm": 7.448786476516034e-09
+    }
+  },
+  "assembly": {
+    "pose_count": 39,
+    "pairs_per_pose": 9,
+    "total_pair_checks": 351,
+    "maximum_intersection_mm3": 0,
+    "all_sampled_poses_clear": true,
+    "excluded": [
+      "actuator block",
+      "tendons",
+      "springs",
+      "cast pads",
+      "fastener heads",
+      "manufacturing errors",
+      "continuous unsampled motion"
+    ],
+    "description": "Revision B nominal finished rigid bodies, plate and narrowed brackets; symmetric path; sampled collision screen only"
+  },
+  "comparison": {
+    "volume_reduction_percent": 5.073409847866794,
+    "compliance_increase_percent": 3.6258759301637244,
+    "equivalent_stiffness_change_percent": -3.49900630283434,
+    "baseline_displacement_mm": 0.48256681553415665,
+    "revised_displacement_mm": 0.4979233563122867,
+    "mesh_change_upper_bound_percent": 0.66
+  },
+  "mesh_convergence": [
+    {
+      "variant": "baseline",
+      "coarse_elements": 17262,
+      "fine_elements": 25458,
+      "compliance_change_percent": 0.6595322768208289,
+      "global_element_stress_change_percent": 26.324119489978347,
+      "central_element_stress_change_percent": -15.140479243477433
+    },
+    {
+      "variant": "revB",
+      "coarse_elements": 21162,
+      "fine_elements": 32069,
+      "compliance_change_percent": 0.587810071160999,
+      "global_element_stress_change_percent": 6.107326511914324,
+      "central_element_stress_change_percent": 12.36744278279489
+    }
+  ],
+  "support_sensitivity": [
+    {
+      "support": "fixed hole walls",
+      "k": null,
+      "displacement_mm": 0.4979233563122867,
+      "compliance_Nmm": 30.464589373741656,
+      "compliance_increase_vs_fixed_percent": 0.0
+    },
+    {
+      "support": "uniform 3D elastic foundation on hole walls",
+      "k": 100.0,
+      "displacement_mm": 0.8094344970476828,
+      "compliance_Nmm": 47.04422139796563,
+      "compliance_increase_vs_fixed_percent": 54.42263416330324
+    },
+    {
+      "support": "uniform 3D elastic foundation on hole walls",
+      "k": 10.0,
+      "displacement_mm": 1.272445236049151,
+      "compliance_Nmm": 71.59984329836288,
+      "compliance_increase_vs_fixed_percent": 135.02645126763775
+    }
+  ],
+  "fixed_boundary_E_sensitivity": [
+    {
+      "E_MPa": 1000,
+      "displacement_mm": 0.8215735379152731
+    },
+    {
+      "E_MPa": 1500,
+      "displacement_mm": 0.5477156919435153
+    },
+    {
+      "E_MPa": 1650,
+      "displacement_mm": 0.4979233563122867
+    },
+    {
+      "E_MPa": 2000,
+      "displacement_mm": 0.41078676895763655
+    },
+    {
+      "E_MPa": 2200,
+      "displacement_mm": 0.373442517234215
+    }
+  ],
+  "strength_status": "Element stress maxima are mesh sensitive; no peak-stress or strength certification",
+  "fe_cases": {
+    "baseline_h3.0_fixed": {
+      "variant": "baseline",
+      "h_mm": 3.0,
+      "elements": 17262,
+      "dofs": 100452,
+      "material": {
+        "name": "PA2200 Balance reference isotropic approximation",
+        "E_MPa": 1650.0,
+        "nu_assumption": 0.35,
+        "density_g_cm3": 0.93
+      },
+      "load_multiplier": 1.5,
+      "load_coefficients": [
+        2.805521188676921,
+        0.564981672451975,
+        1.2801576242863544
+      ],
+      "support": "fixed hole walls",
+      "support_k_N_per_mm3": null,
+      "support_area_mm2": 244.28804114087504,
+      "applied_per_side": [
+        {
+          "side": -1,
+          "force_N": [
+            -5.649816724519764,
+            0.0,
+            -28.05521188676925
+          ],
+          "moment_Nmm": [
+            6.401332372265563e-14,
+            -640.0788121431787,
+            -2.926494400837182e-15
+          ]
+        },
+        {
+          "side": 1,
+          "force_N": [
+            5.649816724519764,
+            0.0,
+            -28.055211886769257
+          ],
+          "moment_Nmm": [
+            5.282266427134797e-14,
+            640.0788121431785,
+            2.6829308262398675e-15
+          ]
+        }
+      ],
+      "corner_max_displacement_mm": 0.47959934424557105,
+      "all_nodal_max_displacement_mm": 0.4800933112765552,
+      "compliance_Nmm": 29.20600841912669,
+      "strain_energy_Nmm": 14.603004209513385,
+      "support_energy_Nmm": 0.0,
+      "p95_element_vm_MPa": 2.4110747948014213,
+      "max_element_vm_MPa": 8.087308280016192,
+      "central_region_max_element_vm_MPa": 1.367368374916538,
+      "central_region_max_element_principal_MPa": 1.5173307487505847,
+      "force_error_N": 1.006434715158679e-10,
+      "moment_error_Nmm": 1.3574662702017727e-09,
+      "relative_residual": 1.971674769459045e-11,
+      "runtime_s": 77.51054859161377
+    },
+    "baseline_h2.4_fixed": {
+      "variant": "baseline",
+      "h_mm": 2.4,
+      "elements": 25458,
+      "dofs": 145881,
+      "material": {
+        "name": "PA2200 Balance reference isotropic approximation",
+        "E_MPa": 1650.0,
+        "nu_assumption": 0.35,
+        "density_g_cm3": 0.93
+      },
+      "load_multiplier": 1.5,
+      "load_coefficients": [
+        2.805521188676921,
+        0.564981672451975,
+        1.2801576242863544
+      ],
+      "support": "fixed hole walls",
+      "support_k_N_per_mm3": null,
+      "support_area_mm2": 244.83388658465492,
+      "applied_per_side": [
+        {
+          "side": -1,
+          "force_N": [
+            -5.649816724519765,
+            0.0,
+            -28.055211886769282
+          ],
+          "moment_Nmm": [
+            8.293890649839742e-14,
+            -640.0788121431785,
+            -8.027424594290903e-16
+          ]
+        },
+        {
+          "side": 1,
+          "force_N": [
+            5.649816724519763,
+            0.0,
+            -28.05521188676927
+          ],
+          "moment_Nmm": [
+            7.876738088614567e-14,
+            640.0788121431783,
+            2.4861860333706577e-15
+          ]
+        }
+      ],
+      "corner_max_displacement_mm": 0.48224217383729157,
+      "all_nodal_max_displacement_mm": 0.48256681553415665,
+      "compliance_Nmm": 29.398631471421837,
+      "strain_energy_Nmm": 14.699315735649284,
+      "support_energy_Nmm": 0.0,
+      "p95_element_vm_MPa": 2.450336238812042,
+      "max_element_vm_MPa": 10.216220975170566,
+      "central_region_max_element_vm_MPa": 1.1603422499304248,
+      "central_region_max_element_principal_MPa": 1.2432948847744933,
+      "force_error_N": 4.7221629577702284e-11,
+      "moment_error_Nmm": 1.3294465795080743e-09,
+      "relative_residual": 2.683406017123259e-11,
+      "runtime_s": 135.65374040603638
+    },
+    "revB_h3.0_fixed": {
+      "variant": "revB",
+      "h_mm": 3.0,
+      "elements": 21162,
+      "dofs": 122274,
+      "material": {
+        "name": "PA2200 Balance reference isotropic approximation",
+        "E_MPa": 1650.0,
+        "nu_assumption": 0.35,
+        "density_g_cm3": 0.93
+      },
+      "load_multiplier": 1.5,
+      "load_coefficients": [
+        2.805521188676921,
+        0.564981672451975,
+        1.2801576242863544
+      ],
+      "support": "fixed hole walls",
+      "support_k_N_per_mm3": null,
+      "support_area_mm2": 244.1935201575028,
+      "applied_per_side": [
+        {
+          "side": -1,
+          "force_N": [
+            -5.649816724519763,
+            0.0,
+            -28.055211886769236
+          ],
+          "moment_Nmm": [
+            8.326672684688674e-14,
+            -640.0788121431787,
+            -3.219646771412954e-15
+          ]
+        },
+        {
+          "side": 1,
+          "force_N": [
+            5.64981672451976,
+            0.0,
+            -28.055211886769253
+          ],
+          "moment_Nmm": [
+            5.262457136723242e-14,
+            640.0788121431787,
+            2.9976021664879227e-15
+          ]
+        }
+      ],
+      "corner_max_displacement_mm": 0.4949826997322979,
+      "all_nodal_max_displacement_mm": 0.4954805331692792,
+      "compliance_Nmm": 30.28656191261092,
+      "strain_energy_Nmm": 15.143280956281362,
+      "support_energy_Nmm": 0.0,
+      "p95_element_vm_MPa": 2.5079863249696257,
+      "max_element_vm_MPa": 9.4581649317786,
+      "central_region_max_element_vm_MPa": 1.8996467703585616,
+      "central_region_max_element_principal_MPa": 1.6708350452090905,
+      "force_error_N": 9.422610632093109e-11,
+      "moment_error_Nmm": 2.895528129271521e-09,
+      "relative_residual": 2.2507654214213675e-11,
+      "runtime_s": 92.76908087730408
+    },
+    "revB_h2.4_fixed": {
+      "variant": "revB",
+      "h_mm": 2.4,
+      "elements": 32069,
+      "dofs": 181359,
+      "material": {
+        "name": "PA2200 Balance reference isotropic approximation",
+        "E_MPa": 1650.0,
+        "nu_assumption": 0.35,
+        "density_g_cm3": 0.93
+      },
+      "load_multiplier": 1.5,
+      "load_coefficients": [
+        2.805521188676921,
+        0.564981672451975,
+        1.2801576242863544
+      ],
+      "support": "fixed hole walls",
+      "support_k_N_per_mm3": null,
+      "support_area_mm2": 244.66318228570435,
+      "applied_per_side": [
+        {
+          "side": -1,
+          "force_N": [
+            -5.649816724519761,
+            0.0,
+            -28.055211886769275
+          ],
+          "moment_Nmm": [
+            4.829470157119431e-14,
+            -640.0788121431784,
+            -3.164135620181696e-15
+          ]
+        },
+        {
+          "side": 1,
+          "force_N": [
+            5.649816724519757,
+            0.0,
+            -28.05521188676925
+          ],
+          "moment_Nmm": [
+            7.457334564724442e-14,
+            640.0788121431787,
+            2.8910039171089162e-15
+          ]
+        }
+      ],
+      "corner_max_displacement_mm": 0.49759933086655855,
+      "all_nodal_max_displacement_mm": 0.4979233563122867,
+      "compliance_Nmm": 30.464589373741656,
+      "strain_energy_Nmm": 15.232294686800255,
+      "support_energy_Nmm": 0.0,
+      "p95_element_vm_MPa": 2.5374035296955006,
+      "max_element_vm_MPa": 10.035805946197696,
+      "central_region_max_element_vm_MPa": 2.1345844977578676,
+      "central_region_max_element_principal_MPa": 1.6736526285878637,
+      "force_error_N": 4.060284571217528e-11,
+      "moment_error_Nmm": 5.324783845281515e-09,
+      "relative_residual": 2.8472673970322568e-11,
+      "runtime_s": 249.46252059936523
+    },
+    "revB_h2.4_k100": {
+      "variant": "revB",
+      "h_mm": 2.4,
+      "elements": 32069,
+      "dofs": 181359,
+      "material": {
+        "name": "PA2200 Balance reference isotropic approximation",
+        "E_MPa": 1650.0,
+        "nu_assumption": 0.35,
+        "density_g_cm3": 0.93
+      },
+      "load_multiplier": 1.5,
+      "load_coefficients": [
+        2.805521188676921,
+        0.564981672451975,
+        1.2801576242863544
+      ],
+      "support": "uniform 3D elastic foundation on hole walls",
+      "support_k_N_per_mm3": 100.0,
+      "support_area_mm2": 244.66318228570435,
+      "applied_per_side": [
+        {
+          "side": -1,
+          "force_N": [
+            -5.649816724519761,
+            0.0,
+            -28.055211886769275
+          ],
+          "moment_Nmm": [
+            4.829470157119431e-14,
+            -640.0788121431784,
+            -3.164135620181696e-15
+          ]
+        },
+        {
+          "side": 1,
+          "force_N": [
+            5.649816724519757,
+            0.0,
+            -28.05521188676925
+          ],
+          "moment_Nmm": [
+            7.457334564724442e-14,
+            640.0788121431787,
+            2.8910039171089162e-15
+          ]
+        }
+      ],
+      "corner_max_displacement_mm": 0.8090589682303152,
+      "all_nodal_max_displacement_mm": 0.8094344970476828,
+      "compliance_Nmm": 47.04422139796563,
+      "strain_energy_Nmm": 18.853902815496276,
+      "support_energy_Nmm": 4.668207883122632,
+      "p95_element_vm_MPa": 2.6323771522944375,
+      "max_element_vm_MPa": 5.824263240517723,
+      "central_region_max_element_vm_MPa": 4.271455734833528,
+      "central_region_max_element_principal_MPa": 1.7287626443916007,
+      "force_error_N": 4.718167667007243e-10,
+      "moment_error_Nmm": 1.7284794105296945e-08,
+      "relative_residual": 4.9723252681006606e-11,
+      "runtime_s": 234.7922863960266
+    },
+    "revB_h2.4_k10": {
+      "variant": "revB",
+      "h_mm": 2.4,
+      "elements": 32069,
+      "dofs": 181359,
+      "material": {
+        "name": "PA2200 Balance reference isotropic approximation",
+        "E_MPa": 1650.0,
+        "nu_assumption": 0.35,
+        "density_g_cm3": 0.93
+      },
+      "load_multiplier": 1.5,
+      "load_coefficients": [
+        2.805521188676921,
+        0.564981672451975,
+        1.2801576242863544
+      ],
+      "support": "uniform 3D elastic foundation on hole walls",
+      "support_k_N_per_mm3": 10.0,
+      "support_area_mm2": 244.66318228570435,
+      "applied_per_side": [
+        {
+          "side": -1,
+          "force_N": [
+            -5.649816724519761,
+            0.0,
+            -28.055211886769275
+          ],
+          "moment_Nmm": [
+            4.829470157119431e-14,
+            -640.0788121431784,
+            -3.164135620181696e-15
+          ]
+        },
+        {
+          "side": 1,
+          "force_N": [
+            5.649816724519757,
+            0.0,
+            -28.05521188676925
+          ],
+          "moment_Nmm": [
+            7.457334564724442e-14,
+            640.0788121431787,
+            2.8910039171089162e-15
+          ]
+        }
+      ],
+      "corner_max_displacement_mm": 1.27198356038368,
+      "all_nodal_max_displacement_mm": 1.272445236049151,
+      "compliance_Nmm": 71.59984329836288,
+      "strain_energy_Nmm": 31.209275868780768,
+      "support_energy_Nmm": 4.590645779674083,
+      "p95_element_vm_MPa": 3.565847432726188,
+      "max_element_vm_MPa": 10.745334463228856,
+      "central_region_max_element_vm_MPa": 6.486236913350207,
+      "central_region_max_element_principal_MPa": 2.593410415769692,
+      "force_error_N": 1.0102885152728763e-09,
+      "moment_error_Nmm": 3.448948876580348e-08,
+      "relative_residual": 8.133553218275623e-11,
+      "runtime_s": 220.65582489967346
+    }
+  }
+}

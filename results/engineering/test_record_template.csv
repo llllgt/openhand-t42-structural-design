@@ -1,0 +1,11 @@
+specimen_id,revision,material_batch,process,orientation,stage,measurement,unit,target,measured_value,instrument,calibration_date,operator,date,notes
+,,,,,geometry,floor_min,mm,>=1.20,,,,,,
+,,,,,geometry,slot_length,mm,31.85-31.95,,,,,,
+,,,,,geometry,bracket_width,mm,31.55-31.65,,,,,,
+,,,,,geometry,pin_diameter,mm,6.344-6.350,,,,,,
+,,,,,geometry,retained_hole,mm,6.325-6.340,,,,,,
+,,,,,geometry,rotating_hole,mm,6.375-6.400,,,,,,
+,,,,,spring,angle,deg,record loading and unloading,,,,,,
+,,,,,spring,torque,Nmm,measure then fit,,,,,,
+,,,,,load,displacement,mm,record actual load and point,,,,,,
+,,,,,endurance,cycles,count,100 then 1000 screening only,,,,,,

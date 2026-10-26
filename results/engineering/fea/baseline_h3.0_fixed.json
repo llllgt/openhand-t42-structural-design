@@ -1,0 +1,62 @@
+{
+  "variant": "baseline",
+  "h_mm": 3.0,
+  "elements": 17262,
+  "dofs": 100452,
+  "material": {
+    "name": "PA2200 Balance reference isotropic approximation",
+    "E_MPa": 1650.0,
+    "nu_assumption": 0.35,
+    "density_g_cm3": 0.93
+  },
+  "load_multiplier": 1.5,
+  "load_coefficients": [
+    2.805521188676921,
+    0.564981672451975,
+    1.2801576242863544
+  ],
+  "support": "fixed hole walls",
+  "support_k_N_per_mm3": null,
+  "support_area_mm2": 244.28804114087504,
+  "applied_per_side": [
+    {
+      "side": -1,
+      "force_N": [
+        -5.649816724519764,
+        0.0,
+        -28.05521188676925
+      ],
+      "moment_Nmm": [
+        6.401332372265563e-14,
+        -640.0788121431787,
+        -2.926494400837182e-15
+      ]
+    },
+    {
+      "side": 1,
+      "force_N": [
+        5.649816724519764,
+        0.0,
+        -28.055211886769257
+      ],
+      "moment_Nmm": [
+        5.282266427134797e-14,
+        640.0788121431785,
+        2.6829308262398675e-15
+      ]
+    }
+  ],
+  "corner_max_displacement_mm": 0.47959934424557105,
+  "all_nodal_max_displacement_mm": 0.4800933112765552,
+  "compliance_Nmm": 29.20600841912669,
+  "strain_energy_Nmm": 14.603004209513385,
+  "support_energy_Nmm": 0.0,
+  "p95_element_vm_MPa": 2.4110747948014213,
+  "max_element_vm_MPa": 8.087308280016192,
+  "central_region_max_element_vm_MPa": 1.367368374916538,
+  "central_region_max_element_principal_MPa": 1.5173307487505847,
+  "force_error_N": 1.006434715158679e-10,
+  "moment_error_Nmm": 1.3574662702017727e-09,
+  "relative_residual": 1.971674769459045e-11,
+  "runtime_s": 77.51054859161377
+}

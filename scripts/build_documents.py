@@ -1,5 +1,9 @@
-"""Build a six-page Chinese portfolio PDF and evidence-based repository text."""
+"""Build the current portfolio; delegate to Rev B when engineering results exist."""
 from pathlib import Path
+import runpy,sys
+if (Path(__file__).resolve().parents[1]/'results/engineering/summary.json').exists():
+ runpy.run_path(str(Path(__file__).with_name('build_engineering_report.py')),run_name='__main__')
+ sys.exit(0)
 import json,math
 from reportlab.pdfgen import canvas
 from reportlab.lib.colors import HexColor

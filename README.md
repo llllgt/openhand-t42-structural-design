@@ -1,62 +1,67 @@
-# OpenHand T42 支承顶板轻量化与刚度校核
+# 欠驱动夹爪结构分析与轻量化设计
 
-基于 Yale OpenHand T42 的**独立机械设计与数值验证项目**。研究对象为手指支承顶板，保留原有安装接口，比较中央凹槽深度与变形代价。与四自由度机械臂项目分开维护。
+基于 [Yale OpenHand T42](https://github.com/grablab/openhand-hardware) 双转轴方案的**独立二次设计项目**。当前为 **Rev B**：机构与传力计算、上部装配、关键配合与顶板改型、材料工艺规划、等效载荷有限元及试验方案。与四自由度机械臂项目分开维护。
 
-![原始与改型对比](assets/design_comparison.png)
+![三阶段上部装配](assets/engineering_assembly.png)
 
-## 已完成的结果
+## 已完成且有证据的工作
 
-- 三种凹槽深度方案、有效 STEP/STL、参数化生成脚本及改制尺寸图。
-- 候选方案：四个 10 × 24 mm、R2、深 1.8 mm 的凹槽，中央名义底厚 1.2 mm。
-- 实体体积 **减少 5.53%**；统一密度 1.20 g/cm³ 下，全实体估算质量从 36.930 g 到 34.886 g。这不是实际打印重量。
-- 最终三个参考载荷工况的最大柔度增加 **8.20%**；两档网格的柔度变化不超过 **0.66%**。
-- 独立梁算例细网格挠度与含剪切的梁公式相差 **1.93%**。
+- 4 个关节几何自由度 / 2 个驱动的运动学和准静态传力模型，含非负接触筛查、驱动需求与 MX-28 候选核对。
+- 修订顶板、支座及销孔成品尺寸，提供 STEP/STL、改制图、三类尺寸链与孔径试块；重建三姿态上部装配。
+- 规定闭合路径 **39 个姿态、351 对零件** B-rep 求交检查，无实体相交。范围是上部刚体采样，不是整机连续扫掠。
+- Rev B 顶板实体体积 **减少 5.07%**；新推导的等效载荷、刚性孔壁支承下柔度 **增加 3.63%**，两档网格柔度变化 **≤0.66%**。
+- 弹性支承敏感性、销轴/耳板强度需求筛查、材料工艺路线和可填写的试验记录模板。
 
-![载荷定义](assets/boundary_conditions.png)
+## 设计取舍
 
-| 工况 | 原始角点最大位移 / mm | 改型角点最大位移 / mm | 柔度增加 |
-|---|---:|---:|---:|
-| vertical_20N | 0.05276 | 0.05316 | 4.11% |
-| spread_10N_each | 0.00535 | 0.00525 | 3.68% |
-| opposed_500Nmm | 0.19334 | 0.20310 | 8.20% |
+原 1.8 mm 深凹槽只有 1.2 mm **名义**底厚；考虑底板 ±0.15 mm 后，最不利仅 1.05 mm。Rev B 改为 1.65 mm 深，使拟定公差下的最小底厚达到 1.20 mm，因此体积收益从旧版 5.53% 调整为 5.07%。
 
-![工况结果](assets/fea_comparison.png)
+![底厚尺寸链和孔径试块](assets/engineering_tolerances.png)
 
-## 交付文件
+## 成果入口
 
-- [六页中文作品集](output/pdf/T42-结构设计作品集.pdf)
-- [候选 STEP](cad/variants/pocket_1p8.step)、[候选 STL](cad/variants/pocket_1p8.stl)
-- [改制尺寸图](assets/modification_drawing.svg)
-- [设计与验证说明](docs/设计与验证说明.md)
-- [结果摘要](results/summary.json)、[对照 CSV](results/comparison.csv)
-- [简历与证据](docs/简历与证据.md)
+- [九页中文作品集](output/pdf/T42-结构设计作品集.pdf)
+- [简历三点版与能力证据](docs/简历与证据.md)
+- [机构与传力分析](docs/机构与传力分析.md)
+- [装配、公差与工艺](docs/装配公差与工艺.md)
+- [上部组件机械件清单](docs/机械件清单.md)
+- [新增结构验证](docs/新增结构验证.md)
+- [试验与验收计划](docs/试验与验收计划.md)、[空白记录模板](results/engineering/test_record_template.csv)
+- [顶板 STEP](cad/engineering/top_plate_revB.step)、[支座 STEP](cad/engineering/bracket_revB.step)、[近指节 STEP](cad/engineering/finger_A_finished.step)、[远指节 STEP](cad/engineering/finger_B_finished.step)
+- [闭合装配 STEP](cad/engineering/revB_upper_q55_90.step)、[孔径试块 STEP](cad/engineering/pin_fit_coupon.step)
+- [顶板改制图](assets/revB_modification_drawing.svg)、[关节与支座检验图](assets/joint_inspection_drawing.svg)
+- [计算摘要](results/engineering/summary.json)、[有限元原始数组](results/engineering/fea/raw-revB.zip)
 
-## 模型假设
+![机构计算](assets/mechanism_analysis.png)
+![有限元与支承敏感性](assets/engineering_fea.png)
 
-本版主要展示**参数化零件改型、轻量化方案取舍与有限元刚度验证**。装配配合仅保留原接口，材料与工艺仅完成初步约束；尚未完成整手机构运动学、腱绳传力和驱动选型。六类能力的逐项证据与缺项见 [简历与证据](docs/简历与证据.md#六类能力覆盖情况)。
+## 适用边界
 
-均质各向同性线弹性材料，E=2000 MPa、ν=0.35；安装孔壁全固定；实际座面上分布载荷。三种工况是零件级参考，不是整手额定载荷。二次四面体位移单元在一阶直边几何上计算。柔度为 Fᵀu；应力输出是单元积分平均值，局部峰值不作强度结论。没有打样、耐久或抓取成功率实测。
+研究接触点、等效弹簧刚度、传动效率均显式列在 [engineering.json](engineering.json)，未冒充实测参数。计算将上部组件合力和合矩映射为顶板的等效牵引，未求解上下板实际接触分载。弹性支承刚度是敏感性输入；绝对位移不能当作已标定实物预测。局部应力峰值仍网格敏感，不给出强度安全系数或额定抓取力。
 
-实际工具为 CadQuery、Gmsh、scikit-fem 与 SciPy。STEP 可导入 SolidWorks / Workbench，但不附带其原生建模特征树，也不声称已在 Workbench 求解。
+没有打样、称重、抓取成功率或耐久实测。孔与槽公差是拟定验收目标，成品 CAD 必须配合工艺试块和后加工方案使用。当前图纸为设计评审版。六类能力的完成程度及限制见简历证据表。
 
 ## 复现
 
-Windows PowerShell，Python 3.12。环境、缓存和源文件默认放在 E 盘：
+实际工具：CadQuery/OpenCascade、Gmsh、scikit-fem、SciPy、Python。PDF 另用 ReportLab。未声称使用 SolidWorks/Workbench 求解；STEP 可导入，但没有相应原生特征树或工程文件。
+
+Windows PowerShell；环境、缓存与下载默认使用 E 盘：
 
 ```powershell
 ./run.ps1 -Stage setup
-./run.ps1 -Stage cad
-./run.ps1 -Stage verify
-./run.ps1 -Stage fea
-./run.ps1 -Stage figures
+./run.ps1 -Stage engineering
+./run.ps1 -Stage engineering-fea
+./run.ps1 -Stage engineering-report -ReportPython 'your-python-with-reportlab.exe'
 ```
 
-全量依赖锁定见 requirements-lock.txt；直接运行依赖见 requirements.txt。报告脚本另依赖 reportlab。关键上游 STEP 已随仓库提供，不需要完整手模型即可复现；scripts/fetch_upstream.py 可获取固定版本的 188 个相关源文件并核验 Git blob 哈希，默认约 93 MB，放入 E:/Codex/downloads。
+`engineering` 生成几何、机构计算、Rev B CAD、碰撞检查与图；`engineering-fea` 运行六个新有限元算例并汇总；报告读取已有结果，**不重新求解**。计算顺序与软件依赖详见脚本及 requirements 文件。全部 FE 算例在普通电脑上可能需要较长时间。也可直接运行单个 Python 脚本。
 
-## 上游与许可
+## 版本与来源
 
-原始机构、顶板、手指及安装接口来自 [Yale OpenHand](https://github.com/grablab/openhand-hardware)，固定提交 b10197dcd79e7bcfa92c6d5a0bfa479e6a789fba。个人新增部分为四凹槽参数化改型、几何检查、数值模型、对照数据及文档。原始文件保留于 cad/upstream；派生文件位于 cad/variants。
+Rev A 的 `design.json`、`cad/variants`、`results/summary.json` 和 [初版说明](docs/设计与验证说明.md) 保留为历史。**现行结果在 `results/engineering`，新模型在 `cad/engineering`**；两版载荷、材料和槽深不同，不混用百分比或位移。
+
+原机构、指节、支座与基准顶板来自 Yale OpenHand，固定提交 `b10197dcd79e7bcfa92c6d5a0bfa479e6a789fba`。本项目新增参数化改型、成品配合修订、运动与静力模型、数值验证及文档。原始 STEP 保留于 `cad/upstream`；引用清单见 [工程来源](docs/工程来源.md)。
 
 The Yale OpenHand Project is an initiative to advance the design and use of robotic hands designed and built through rapid-prototyping techniques in order to encourage more variation and innovation in mechanical hardware. Please visit our site at www.eng.yale.edu/grablab/openhand for more details.
 
-参考：R.R. Ma, L.U. Odhner, A.M. Dollar, “A Modular, Open-Source 3D Printed Underactuated Hand,” ICRA, 2013。上游与派生模型保留 CC BY-NC 3.0，见 [原许可](UPSTREAM_LICENSE.md) 和 [本仓库许可说明](LICENSE.md)。
+R.R. Ma, L.U. Odhner, A.M. Dollar, “A Modular, Open-Source 3D Printed Underactuated Hand,” ICRA, 2013。上游及派生 CAD 遵循 CC BY-NC 3.0，见 [原许可](UPSTREAM_LICENSE.md) 和 [本仓库许可说明](LICENSE.md)。

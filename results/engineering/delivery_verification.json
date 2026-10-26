@@ -1,0 +1,52 @@
+{
+  "source_STEP_files_verified": [
+    "a1_p_t42.STEP",
+    "b1_dynamixel_t42.STEP",
+    "c1_t42.STEP",
+    "finger_pp_B_t42.STEP",
+    "finger_pp_ext_A_t42.STEP"
+  ],
+  "delivered_STEP_checks": {
+    "bracket_revB.step": {
+      "solids": 1,
+      "volume_mm3": 7440.179029991354
+    },
+    "finger_A_finished.step": {
+      "solids": 1,
+      "volume_mm3": 18306.736938798054
+    },
+    "finger_B_finished.step": {
+      "solids": 1,
+      "volume_mm3": 19171.55970005549
+    },
+    "pin_fit_coupon.step": {
+      "solids": 1,
+      "volume_mm3": 18520.275577467073
+    },
+    "revB_upper_q15_15.step": {
+      "solids": 7,
+      "volume_mm3": 119050.5791243078
+    },
+    "revB_upper_q55_35.step": {
+      "solids": 7,
+      "volume_mm3": 119050.55540812656
+    },
+    "revB_upper_q55_90.step": {
+      "solids": 7,
+      "volume_mm3": 119050.55707368653
+    },
+    "top_plate_revB.step": {
+      "solids": 1,
+      "volume_mm3": 29213.586371121244
+    }
+  },
+  "drum_groove_roots_mm": [
+    10.5,
+    10.5
+  ],
+  "raw_FE_archives_verified": 6,
+  "local_document_links_checked": 30,
+  "empty_test_template_verified": true,
+  "force_moment_residual_energy_checks": "passed",
+  "status": "Delivered digital evidence checked; no physical validation implied"
+}

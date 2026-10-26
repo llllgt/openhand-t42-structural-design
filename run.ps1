@@ -1,4 +1,7 @@
-param([ValidateSet('setup','cad','verify','fea','figures')][string]$Stage='cad')
+param(
+ [ValidateSet('setup','cad','verify','fea','figures','engineering','engineering-fea','engineering-report')][string]$Stage='cad',
+ [string]$ReportPython=''
+)
 $ErrorActionPreference='Stop'
 $projectRoot=$PSScriptRoot
 $env:TEMP='E:\Codex\cache\tmp'
@@ -17,4 +20,21 @@ switch ($Stage) {
  'verify' { Invoke-ProjectPython -Arguments @((Join-Path $projectRoot 'scripts\verify_solver.py')) }
  'fea' { foreach ($variant in @('baseline','pocket_1p8')) { foreach ($size in @('3.0','2.4')) { Invoke-ProjectPython -Arguments @((Join-Path $projectRoot 'scripts\analyze.py'),'--variant',$variant,'--size',$size) } } }
  'figures' { Invoke-ProjectPython -Arguments @((Join-Path $projectRoot 'scripts\visualize.py')); Invoke-ProjectPython -Arguments @((Join-Path $projectRoot 'scripts\summarize.py')) }
+ 'engineering' {
+  foreach ($script in @('engineering_geometry.py','engineering_calculations.py','build_engineering_cad.py','verify_engineering_assembly.py','engineering_figures.py')) {
+   Invoke-ProjectPython -Arguments @((Join-Path $projectRoot ('scripts\'+$script)))
+  }
+ }
+ 'engineering-fea' {
+  foreach ($variant in @('baseline','revB')) {
+   foreach ($size in @('3.0','2.4')) { Invoke-ProjectPython -Arguments @((Join-Path $projectRoot 'scripts\engineering_fea.py'),'--variant',$variant,'--size',$size) }
+  }
+  foreach ($stiffness in @('100','10')) { Invoke-ProjectPython -Arguments @((Join-Path $projectRoot 'scripts\engineering_fea.py'),'--variant','revB','--size','2.4','--support',$stiffness) }
+  Invoke-ProjectPython -Arguments @((Join-Path $projectRoot 'scripts\engineering_summary.py'))
+ }
+ 'engineering-report' {
+  if (-not $ReportPython) { $ReportPython=$pythonExe }
+  & $ReportPython (Join-Path $projectRoot 'scripts\build_documents.py')
+  if ($LASTEXITCODE -ne 0) { throw 'Report generation failed. Use -ReportPython with an existing Python containing requirements-report.txt dependencies.' }
+ }
 }

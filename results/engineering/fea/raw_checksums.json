@@ -1,0 +1,8 @@
+{
+  "baseline_h3.0_fixed.npz": "1a8e56e38a93576f1e3576e1c66bf5f09f8f17f56df9fa4217ac8cbb8fe4d8c2",
+  "baseline_h2.4_fixed.npz": "59448a10c5bbbb185d2b30850f8a87716c7b334e4af092b02fba526019fb2f4f",
+  "revB_h3.0_fixed.npz": "f051f6f35641d83e7777c196e1260c7f3c4e6bf11bbe0109c66ef53294a6d805",
+  "revB_h2.4_fixed.npz": "f277fc431c3d873a2169af284d0f1a00cddde3c803730bcb353438c8de643c39",
+  "revB_h2.4_k100.npz": "f75bfe76dbf938b6d4c4e52892a1edd0adeb416fbb5defe4191567dfb99f4de6",
+  "revB_h2.4_k10.npz": "32710c13e1ef09fde2d523e609e36141c3321e1c7668eb9d7c6bf2fc59128f8a"
+}
