@@ -1,4 +1,4 @@
-"""Build the nine-page revision B portfolio, concise resume and evidence index."""
+"""Build the nine-page revision B technical portfolio."""
 from pathlib import Path
 import json,math
 from reportlab.pdfgen import canvas
@@ -116,52 +116,16 @@ y=para('实际使用 CadQuery/OpenCascade、Gmsh、scikit-fem、SciPy 与 Python
 y=para('已有的悬臂梁独立算例误差约 1.93%，用于求解方法检查；它不是实物测量误差。新载荷模型和制造公差仍需按试验计划验证。',y,9.5)
 end(y)
 
-bullets=[
-'针对双转轴欠驱动夹爪建立运动与传力模型，分析腱绳张力、关节力矩及接触力，计算驱动需求，完成上部装配重建与闭合路径刚体干涉检查。',
-'完成支承顶板、支座及销孔的参数化改型，校核最小底厚、插入间隙与销孔配合尺寸链，输出三维模型、改制尺寸图及孔径校准试块。',
-f'基于推导载荷开展顶板等效载荷有限元对照，实体体积减少 {R["volume_reduction_percent"]:.2f}%，刚性支承下柔度增加 {R["compliance_increase_percent"]:.2f}%；完成网格与支承敏感性分析，并制定材料工艺及试验方案。']
-y=header(9,'简历表达与成果索引','独立项目：欠驱动夹爪结构分析与轻量化设计')
-for i,b in enumerate(bullets,1):y=para(f'{i}. {b}',y,10)
-y=table([['成果','仓库位置'],['成品尺寸零件 / 三姿态装配','cad/engineering/*.step；*.stl'],['运动、受力与尺寸链','engineering.json；scripts/engineering_*.py'],['原始计算与碰撞记录','results/engineering；fea/raw-revB.zip'],['专题说明与试验计划','docs/机构与传力分析.md；装配公差与工艺.md；试验与验收计划.md'],['简历及能力证据表','docs/简历与证据.md']],y,[155,CW-155])
+y=header(9,'成果索引与来源','双指夹爪结构分析与轻量化设计')
+y=table([['成果','仓库位置'],['成品尺寸零件 / 三姿态装配','cad/engineering/*.step；*.stl'],['运动、受力与尺寸链','engineering.json；scripts/engineering_*.py'],['原始计算与碰撞记录','results/engineering；fea/raw-revB.zip'],['专题说明与试验计划','docs/机构与传力分析.md；装配公差与工艺.md；试验与验收计划.md']],y,[155,CW-155])
 y=para('来源与许可',y,15)
 y=para('原机构与源模型：Yale OpenHand / grablab/openhand-hardware，固定提交 b10197dcd79e7bcfa92c6d5a0bfa479e6a789fba。原始及派生 CAD 保留 CC BY-NC 3.0 署名和非商业许可要求；见仓库许可文件。',y,9)
 y=para('<link href="https://www.eng.yale.edu/grablab/openhand/model_t42.html" color="#147f88">Yale T42 / 官方模型与装配资料</link><br/><link href="https://www.eng.yale.edu/grablab/openhand/OpenHand%20CAD%20Guide.pdf" color="#147f88">Yale CAD Guide / 名义杆长与传动半径</link><br/><link href="https://emanual.robotis.com/docs/en/dxl/mx/mx-28/" color="#147f88">ROBOTIS MX-28 / 候选执行器参数</link><br/><link href="https://www.eos.info/polymer-solutions/data-sheets/pds-pa-2200-balance" color="#147f88">EOS PA 2200 Balance / 材料数据</link><br/><link href="https://prusament.com/materials/prusament-petg/" color="#147f88">Prusament PETG / 工艺与材料数据</link>',y,9)
 end(y);c.save()
 
-evidence='# 简历与证据（Rev B）\n\n项目名：**欠驱动夹爪结构分析与轻量化设计**\n\n与四自由度机械臂项目独立列项。源机构为 Yale OpenHand T42；个人项目新增内容是分析、改型与验证，不是整机原创。\n\n## 简历三点版\n\n'+'\n'.join('- '+b for b in bullets)+'\n\n## 能力覆盖与边界\n\n'+'\n'.join('| '+' | '.join(row)+' |' for row in [capabilities[0],['---']*3]+capabilities[1:])
-evidence+='''
-
-## 主张对应证据
-
-| 主张 | 可核对的文件 | 限定 |
-|---|---|---|
-| 运动与传力模型 | scripts/engineering_calculations.py；results/engineering/mechanism.json | 常传动半径、等效弹簧及规定接触条件 |
-| 驱动需求与候选 | docs/机构与传力分析.md | 未验证持续转矩、带载速度和温升 |
-| 39 姿态 / 351 对检查 | results/engineering/closure_sweep.json | 上部刚体、采样路径，不是整机连续无干涉证明 |
-| 顶板、支座与销孔改型 | cad/engineering；results/engineering/cad_revB.json | 成品目标 CAD，尚未确定实际打印补偿 |
-| 体积减少 5.07% | results/engineering/cad_revB.json | CAD 实体体积，不是称重或整机减重 |
-| 柔度增加 3.63% | results/engineering/summary.json | 新推导等效载荷、孔壁刚性支承，非实际装配分载 |
-| 网格变化 ≤0.66% | results/engineering/summary.json | 整体柔度复核，局部应力峰值仍网格敏感 |
-| 工艺与验证计划 | docs/装配公差与工艺.md；docs/试验与验收计划.md | 计划已准备，实物测试尚未执行 |
-
-## 面试应能解释的设计取舍
-
-1. 为什么有 4 个关节自由度，却只有 2 个驱动？弹簧如何决定自由闭合顺序？
-2. 张力为正时，为什么有些假设姿态仍算出负接触力？为什么必须排除？
-3. 为什么把进入上部组件的腱绳拉力也计入顶板等效载荷？为什么这仍不等于实际接触分载？
-4. 为什么原来的 1.8 mm 槽深改成 1.65 mm？能否写出最不利底厚尺寸链？
-5. 为什么打印补偿孔不能直接当成标准配合？孔已经偏大时为什么不能靠铰孔修复？
-6. 为什么整体柔度已基本稳定，却不能宣称局部峰值应力收敛？
-7. 为什么孔壁全固定与弹性支承的绝对位移差很大？怎样通过试验确定实际边界？
-8. 为什么不能使用电机堵转转矩证明连续运行？
-
-实际工具为 CadQuery/OpenCascade、Gmsh、scikit-fem、SciPy。SolidWorks、Workbench 可按实际掌握程度放在个人技能栏，但本项目没有使用它们求解。简历内容须以自己理解和实际参与为准，不写实测抓取、寿命或量产结果。
-'''
-(ROOT/'docs/简历与证据.md').write_text(evidence,encoding='utf-8')
-
 readme=f'''# 欠驱动夹爪结构分析与轻量化设计
 
-基于 [Yale OpenHand T42](https://github.com/grablab/openhand-hardware) 双转轴方案的**独立二次设计项目**。当前为 **Rev B**：机构与传力计算、上部装配、关键配合与顶板改型、材料工艺规划、等效载荷有限元及试验方案。与四自由度机械臂项目分开维护。
+基于 [Yale OpenHand T42](https://github.com/grablab/openhand-hardware) 双转轴方案的**独立二次设计项目**。当前为 **Rev B**：机构与传力计算、上部装配、关键配合与顶板改型、材料工艺规划、等效载荷有限元及试验方案。
 
 ![三阶段上部装配](assets/engineering_assembly.png)
 
@@ -182,7 +146,6 @@ readme=f'''# 欠驱动夹爪结构分析与轻量化设计
 ## 成果入口
 
 - [九页中文作品集](output/pdf/T42-结构设计作品集.pdf)
-- [简历三点版与能力证据](docs/简历与证据.md)
 - [机构与传力分析](docs/机构与传力分析.md)
 - [装配、公差与工艺](docs/装配公差与工艺.md)
 - [上部组件机械件清单](docs/机械件清单.md)
@@ -200,7 +163,7 @@ readme=f'''# 欠驱动夹爪结构分析与轻量化设计
 
 研究接触点、等效弹簧刚度、传动效率均显式列在 [engineering.json](engineering.json)，未冒充实测参数。计算将上部组件合力和合矩映射为顶板的等效牵引，未求解上下板实际接触分载。弹性支承刚度是敏感性输入；绝对位移不能当作已标定实物预测。局部应力峰值仍网格敏感，不给出强度安全系数或额定抓取力。
 
-没有打样、称重、抓取成功率或耐久实测。孔与槽公差是拟定验收目标，成品 CAD 必须配合工艺试块和后加工方案使用。当前图纸为设计评审版。六类能力的完成程度及限制见简历证据表。
+没有打样、称重、抓取成功率或耐久实测。孔与槽公差是拟定验收目标，成品 CAD 必须配合工艺试块和后加工方案使用。当前图纸为设计评审版。
 
 ## 复现
 
